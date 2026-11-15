@@ -2,11 +2,13 @@
   "runtime_files": 89,
   "integrity_files": 89,
   "original_unmodified_files": 78,
-  "folders": [
-    "Extension/YaguaTool"
+  "guides_in_both": [
+    "README_FUNCIONES.md",
+    "README_INSTALACION.md"
   ],
+  "same_runtime_installers_and_guides": true,
+  "clean_has_no_history_or_validation": true,
+  "full_contains_history_validation_and_screenshots": true,
   "all_references_exist": true,
-  "runtime_has_no_docs_or_installers": true,
-  "windows_launchers_in_root": true,
   "mac_executable": true
 }

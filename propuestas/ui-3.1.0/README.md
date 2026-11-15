@@ -1,3 +1,9 @@
+## Distribución definitiva para After Effects
+
+[Paquete limpio con instaladores y guías](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.4/YaguaTool_3.1.4_AfterEffects.zip) · [Paquete completo con historial y validación](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.4/YaguaTool_3.1.4_Completo.zip)
+
+Ambos incluyen `README_INSTALACION.md` y `README_FUNCIONES.md`. Consulta la presentación en el README principal.
+
 ## Descarga limpia · 3.1.4
 
 [Solo extensión, lista para copiar a CEP](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.4/YaguaTool_3.1.4_Solo_Extension.zip) · [Paquete limpio con instaladores](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.4/YaguaTool_3.1.4_AfterEffects.zip)

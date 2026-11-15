@@ -1,15 +1,12 @@
-# Yagua Tool 3.1.4 · After Effects
+# YaguaTool 3.1.4 · Distribución definitiva
 
-Panel completo para AE 2024/2025, con botones Glass, cierres más cómodos e instalador Windows renovado. Conserva los motores, presets, controles editables y recursos de la extensión anterior.
+- **Paquete limpio**: `YaguaTool_3.1.4_AfterEffects.zip` contiene el panel, instaladores Windows/macOS, `README_INSTALACION.md` y `README_FUNCIONES.md`.
+- **Paquete completo**: `YaguaTool_3.1.4_Completo.zip` añade `Documentacion` con historial de versiones, notas técnicas, validación y capturas de presentación.
 
-Extrae todo `YaguaTool_3.1.4_AfterEffects.zip`, cierra AE y ejecuta `install_windows.bat` o `install_mac.command` desde la raíz del paquete. No necesitas administrador. Las instrucciones completas están en `INSTALACION.md` de este repositorio.
+Ambos instalan exactamente la misma extensión; la carpeta `Extension/YaguaTool` contiene únicamente el panel y sus recursos. Extrae todo el ZIP, guarda tu proyecto, cierra After Effects y ejecuta el instalador desde la raíz. Consulta las dos guías incluidas.
 
-El paquete instalable contiene `Extension/YaguaTool` y los archivos necesarios para instalarla. Se han retirado historial, documentación, novedades, validación y archivos de lectura del ZIP. Las instrucciones y pruebas quedan disponibles en este repositorio.
+La presentación está en [presentacion/POST.md](presentacion/POST.md). La compatibilidad declarada es AE 2024/2025. Las pruebas automatizadas de interfaz y archivos no equivalen a verificar la instalación y el render dentro de Windows/macOS/AE.
 
-`YaguaTool_3.1.4_Solo_Extension.zip` contiene únicamente la carpeta `YaguaTool`, lista para copiar a `%APPDATA%\Adobe\CEP\extensions`.
+Reconstrucción: `python after-effects/3.1.4/build.py`. Validación de ambos ZIP: `python after-effects/3.1.4/validation/verify-package.py`.
 
-Los instaladores quedan en la raíz. El de Windows copia a la carpeta Roaming del usuario actual, verifica SHA-256, crea respaldo y restaura la versión anterior ante un fallo de la transacción. Las copias con el mismo ID CEP se respaldan fuera de CEP. Los registros quedan en `%LOCALAPPDATA%\YaguaTool\InstallLogs`.
-
-La lógica de instalación se prueba con PowerShell en Linux. El lanzador y el registro de Windows, la instalación macOS y el render en AE requieren comprobación en esos sistemas. El host nativo conserva su versión interna 3.1.0 y la interfaz es 3.1.4.
-
-Para reconstruir desde este repositorio: `python after-effects/3.1.4/build.py`. `patch/` contiene las modificaciones del panel; `installer/`, los instaladores. El constructor parte del ZIP original 3.1.0 y genera una extensión completa, sin archivos de documentación dentro de CEP.
+El archivo `YaguaTool_3.1.4_Solo_Extension.zip` se conserva para no romper los enlaces de la descarga manual anterior. Las dos opciones recomendadas son el paquete limpio con instaladores y el completo.

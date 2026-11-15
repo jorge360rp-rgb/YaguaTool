@@ -6,7 +6,7 @@ El instalador usa la carpeta Roaming del usuario actual y crea exactamente:
 
 `%APPDATA%\Adobe\CEP\extensions\YaguaTool`
 
-Por ejemplo, en tu equipo: `C:\Users\yanos\AppData\Roaming\Adobe\CEP\extensions\YaguaTool`.
+Por ejemplo, en tu equipo: `C:\Users\TU_USUARIO\AppData\Roaming\Adobe\CEP\extensions\YaguaTool`.
 
 Copia los archivos, comprueba su integridad, respalda la instalación anterior y activa PlayerDebugMode para el usuario actual. Si falla la instalación después de empezar a sustituirla, intenta restaurar la versión anterior. Las copias con el mismo ID CEP se respaldan y retiran del directorio de extensiones para evitar duplicados; las demás extensiones no se modifican.
 
@@ -15,7 +15,7 @@ El respaldo se guarda fuera de CEP y de las carpetas protegidas de Documentos/On
 ## Paquete limpio
 
 - `Extension/YaguaTool`: archivos del panel y recursos necesarios para AE. Sin notas de versiones, instaladores ni pruebas.
-- La documentación, el historial y las pruebas se consultan en este repositorio y se excluyen del ZIP.
+- Ambos paquetes incluyen `README_INSTALACION.md` y `README_FUNCIONES.md`. El completo añade `Documentacion` con historial, validación y capturas; el limpio excluye ese material adicional.
 - En la raíz: instaladores y manifiesto de integridad del paquete.
 
 ## Instalación manual
