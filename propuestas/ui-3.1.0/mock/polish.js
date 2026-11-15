@@ -13,7 +13,10 @@ document.addEventListener('focusin',function(e){var el=e.target.closest('[data-t
 document.addEventListener('scroll',hideTip,true);window.addEventListener('resize',hideTip);document.addEventListener('keydown',function(e){if(e.key==='Escape')hideTip();});
 
 
-function decorate(){
+
+function decorateCloseButtons(){document.querySelectorAll('button').forEach(function(e){if(e.classList.contains('yagua-close'))return;var text=e.textContent.trim();if(['×','✕','✖','x'].indexOf(text)<0&&!e.classList.contains('x'))return;e.classList.add('yagua-close');if(!e.getAttribute('aria-label'))e.setAttribute('aria-label',e.title||(e.closest('.thumb')?'Eliminar referencia':e.classList.contains('danger')?'Eliminar elemento':'Cerrar'));e.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="m6 6 12 12M18 6 6 18"/></svg>';});}
+
+function decorate(){decorateCloseButtons();
 
 document.querySelectorAll('.seg button').forEach(function(e){e.setAttribute('aria-pressed',String(e.classList.contains('on')));});
 document.querySelectorAll('[data-yagua-selected]').forEach(function(e){e.removeAttribute('data-yagua-selected');});
@@ -28,5 +31,5 @@ document.querySelectorAll('input[type=checkbox]:not(.yagua-switch)').forEach(fun
 if(tipOwner&&!tipOwner.isConnected)hideTip();
 }
 let queued=false;function queue(){if(!queued){queued=true;requestAnimationFrame(()=>{queued=false;decorate()})}}
-new MutationObserver(queue).observe(document.getElementById("view"),{childList:true,subtree:true});new MutationObserver(queue).observe(document.getElementById("nav"),{childList:true,subtree:true});decorate();document.addEventListener('click',queue);
+new MutationObserver(queue).observe(document.body,{childList:true});new MutationObserver(queue).observe(document.getElementById("view"),{childList:true,subtree:true});new MutationObserver(queue).observe(document.getElementById("nav"),{childList:true,subtree:true});decorate();document.addEventListener('click',queue);
 })();
