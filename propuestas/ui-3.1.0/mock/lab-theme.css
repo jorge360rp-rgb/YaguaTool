@@ -44,3 +44,10 @@
 .yt-lab .lab-text-first input[type=checkbox],.yt-lab .ymx-all-toggle input,.yt-lab .loop-label input,.yt-lab .ymx-reference-tools input{min-height:28px}
 .yt-lab .ymx-reference-tools label{display:flex;align-items:center;gap:5px}
 .yt-lab .ymx-inspector-title{flex-wrap:wrap}
+
+.yt-lab .lab-text-first{margin-bottom:24px}
+.yt-lab .lab-section-head{padding-top:0;margin-bottom:20px}
+.yt-lab .lab-section-head h2{margin:0 0 8px;line-height:1.3}
+.yt-lab .lab-text-first>label.inputrow{align-items:stretch}
+.yt-lab .lab-text-first .inputrow>.lab-field{width:100%}
+.yt-lab .ymx-status:empty{display:none}

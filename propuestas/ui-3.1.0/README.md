@@ -1,3 +1,13 @@
+# Propuesta actual: secciones anteriores recuperadas
+
+- [Descargar propuesta actualizada](YaguaTool_UI_Propuesta_Secciones_Recuperadas.zip)
+- [Informe y resultados actuales](revision-secciones-recuperadas/INFORME.md)
+- [Capturas y vídeo](revision-secciones-recuperadas)
+
+Biblioteca, Herramientas, Curvas, Fondos y Movimiento recuperan su organización anterior con el skin actual. También se incluyen las correcciones de cabecera, tema, pie, rail y textos de Motion Lab. Los enlaces de revisiones anteriores son históricos.
+
+---
+
 # Propuesta actual: Motion Lab completo y últimos ajustes
 
 - [Descargar ZIP actualizado](YagutaTool_UI_Propuesta_MotionLab_Completo.zip)

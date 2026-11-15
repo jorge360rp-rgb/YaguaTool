@@ -843,6 +843,216 @@
       "screenshot": "proposal-captures/carrousel-1400x800.jpg"
     },
     {
+      "state": "dynamicgrid",
+      "width": 220,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-220x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 220,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-220x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 220,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-220x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 240,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-240x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 240,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-240x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 240,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-240x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 280,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-280x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 280,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-280x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 280,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-280x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 320,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-320x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 320,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-320x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 320,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-320x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 360,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-360x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 360,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-360x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 360,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-360x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 420,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-420x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 420,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-420x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 420,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-420x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 520,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-520x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 520,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-520x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 520,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-520x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 720,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-720x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 720,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-720x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 720,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-720x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 1000,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-1000x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 1000,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-1000x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 1000,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-1000x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 1400,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-1400x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 1400,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-1400x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 1400,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-1400x800.jpg"
+    },
+    {
       "state": "motion",
       "width": 220,
       "height": 360,
@@ -2101,216 +2311,6 @@
       "height": 800,
       "issues": [],
       "screenshot": "proposal-captures/grid-1400x800.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 220,
-      "height": 360,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-220x360.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 220,
-      "height": 560,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-220x560.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 220,
-      "height": 800,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-220x800.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 240,
-      "height": 360,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-240x360.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 240,
-      "height": 560,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-240x560.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 240,
-      "height": 800,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-240x800.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 280,
-      "height": 360,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-280x360.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 280,
-      "height": 560,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-280x560.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 280,
-      "height": 800,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-280x800.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 320,
-      "height": 360,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-320x360.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 320,
-      "height": 560,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-320x560.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 320,
-      "height": 800,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-320x800.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 360,
-      "height": 360,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-360x360.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 360,
-      "height": 560,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-360x560.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 360,
-      "height": 800,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-360x800.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 420,
-      "height": 360,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-420x360.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 420,
-      "height": 560,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-420x560.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 420,
-      "height": 800,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-420x800.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 520,
-      "height": 360,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-520x360.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 520,
-      "height": 560,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-520x560.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 520,
-      "height": 800,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-520x800.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 720,
-      "height": 360,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-720x360.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 720,
-      "height": 560,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-720x560.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 720,
-      "height": 800,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-720x800.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 1000,
-      "height": 360,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-1000x360.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 1000,
-      "height": 560,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-1000x560.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 1000,
-      "height": 800,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-1000x800.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 1400,
-      "height": 360,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-1400x360.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 1400,
-      "height": 560,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-1400x560.jpg"
-    },
-    {
-      "state": "dynamicgrid",
-      "width": 1400,
-      "height": 800,
-      "issues": [],
-      "screenshot": "proposal-captures/dynamicgrid-1400x800.jpg"
     },
     {
       "state": "settings",

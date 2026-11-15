@@ -1,0 +1,91 @@
+{
+  "titleGap": 24,
+  "themePersists": true,
+  "themeChangesSurface": true,
+  "toggleInRail": true,
+  "noDuplicatedBrand": true,
+  "footer": "Yagua Tool \u00b7 v3.1.0",
+  "measurements": [
+    {
+      "theme": "dark",
+      "width": 220,
+      "document": 220,
+      "viewport": 220,
+      "view": 172,
+      "client": 172
+    },
+    {
+      "theme": "dark",
+      "width": 240,
+      "document": 240,
+      "viewport": 240,
+      "view": 192,
+      "client": 192
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "document": 320,
+      "viewport": 320,
+      "view": 272,
+      "client": 272
+    },
+    {
+      "theme": "dark",
+      "width": 420,
+      "document": 420,
+      "viewport": 420,
+      "view": 372,
+      "client": 372
+    },
+    {
+      "theme": "dark",
+      "width": 1000,
+      "document": 1000,
+      "viewport": 1000,
+      "view": 952,
+      "client": 952
+    },
+    {
+      "theme": "light",
+      "width": 220,
+      "document": 220,
+      "viewport": 220,
+      "view": 172,
+      "client": 172
+    },
+    {
+      "theme": "light",
+      "width": 240,
+      "document": 240,
+      "viewport": 240,
+      "view": 192,
+      "client": 192
+    },
+    {
+      "theme": "light",
+      "width": 320,
+      "document": 320,
+      "viewport": 320,
+      "view": 272,
+      "client": 272
+    },
+    {
+      "theme": "light",
+      "width": 420,
+      "document": 420,
+      "viewport": 420,
+      "view": 372,
+      "client": 372
+    },
+    {
+      "theme": "light",
+      "width": 1000,
+      "document": 1000,
+      "viewport": 1000,
+      "view": 952,
+      "client": 952
+    }
+  ],
+  "errors": []
+}

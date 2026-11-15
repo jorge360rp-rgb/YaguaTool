@@ -69,3 +69,28 @@ details>.details-body>.presets{padding-top:8px;padding-bottom:8px;row-gap:8px}
 .nav-brand .brand-lockup{display:flex}.nav-brand .brand-lockup strong{font-size:12px}
 
 #nav button[data-page=complex]::after{content:none}
+
+/* Header/rail placement: a single brand in the header; toggle replaces rail branding. */
+#nav #nav-toggle{display:flex;align-items:center;justify-content:flex-start;min-height:36px;padding:0;background:transparent}
+#nav #nav-toggle svg{width:20px;height:20px;margin:0}
+html[data-nav-open=false] #nav #nav-toggle{justify-content:center}
+#theme-toggle svg{width:20px;height:20px}
+html[data-theme=light]{color-scheme:light;--base:#e9edf3;--s1:#f4f6f9;--s2:#fff;--text:#17212e;--secondary:#4f5f73;--tertiary:#5a6a7e;--line:rgba(20,35,55,.14);--border:var(--line);--interactive:#e4edf5;--focus:#096ba7;--selected:rgba(36,141,210,.12);--selected-border:rgba(36,141,210,.55);--shadow:0 .6rem 1.5rem rgba(19,32,50,.08)}
+html[data-theme=light] #nav{background:var(--s1)}
+html[data-theme=light] .card:hover,html[data-theme=light] .preset:hover{background:var(--interactive)}
+html[data-theme=light] .switch-track{background:rgba(20,35,55,.24)}
+html[data-theme=light] .switch[aria-checked=true] .switch-track{background:var(--ac)}
+html[data-theme=light] .media-clip .preview-title{color:#f1f4f8}
+/* More breathing room inside the selected rail row, without widening the rail. */
+#nav button[data-page]{min-height:40px;padding:6px 8px}
+#nav button[data-page] .nav-name{padding:0}
+#nav .nav-caption{padding-left:8px}
+#nav #nav-toggle{min-height:40px;padding:6px 8px}
+/* A shared, unscaled selection/halo frame avoids press-time geometry drift. */
+.nav-selection.halo{transition:transform var(--dur-slow) var(--ease-out),width var(--dur-base) var(--ease-out),height var(--dur-base) var(--ease-out)}
+.nav-selection[data-lit=true]::before{opacity:.75;animation-play-state:running}
+#nav button[data-page][aria-current=page]::before{content:none}
+#nav button[data-page].is-down{transform:none}
+#nav button[data-page] svg,#nav button[data-page] .nav-name{transition:transform var(--dur-release) var(--ease-out)}
+#nav button[data-page].is-down svg,#nav button[data-page].is-down .nav-name{transform:scale(.97);transition-duration:var(--dur-press)}
+@media(prefers-reduced-motion:reduce){.nav-selection.halo{transition:none}#nav button[data-page].is-down svg,#nav button[data-page].is-down .nav-name{transform:none}}

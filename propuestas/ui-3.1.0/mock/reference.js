@@ -3,7 +3,7 @@
  const key=()=>mq.matches?'yaguano.nav.narrow':'yaguano.nav.wide';
  function stored(){try{const v=localStorage.getItem(key());return v===null?!mq.matches:v==='true';}catch(e){return !mq.matches;}}
  function setOpen(value,persist){root.dataset.navOpen=String(value);toggle.setAttribute('aria-expanded',String(value));toggle.setAttribute('aria-label',value?'Contraer navegación':'Desplegar navegación');toggle.title=toggle.getAttribute('aria-label');shade.hidden=!value||!mq.matches;window.YaguanoNavIndicator?.update();if(persist)try{localStorage.setItem(key(),String(value));}catch(e){} }
- const brand=document.createElement('div');brand.className='nav-brand';brand.innerHTML='<img src="assets/brand-mark.png" alt="" width="20" height="20"><span class="brand-lockup"><strong>YagutaTool</strong><small>Motion Lab</small></span>';nav.prepend(brand);
+ nav.prepend(toggle);
  toggle.addEventListener('click',()=>setOpen(root.dataset.navOpen!=='true',true));shade.addEventListener('click',()=>{setOpen(false,true);toggle.focus();});mq.addEventListener('change',()=>setOpen(stored(),false));setOpen(stored(),false);
  // The rail stays in the state the user chooses, at every width.
 
@@ -24,9 +24,23 @@
  document.querySelectorAll('.yt-lab select,.yt-lab textarea,.yt-lab input[type=text],.yt-lab input[type=number]').forEach(input=>{if(input.parentElement.classList.contains('lab-field'))return;const wrap=document.createElement('span');wrap.className='lab-field halo';input.before(wrap);wrap.append(input);});}
 
  new MutationObserver(decorate).observe(document.getElementById('view'),{childList:true,subtree:true});decorate();
- const indicator=document.createElement('div');indicator.className='nav-selection';indicator.setAttribute('aria-hidden','true');nav.prepend(indicator);
+ const indicator=document.createElement('div');indicator.className='nav-selection halo';indicator.setAttribute('aria-hidden','true');nav.prepend(indicator);
  let first=true;
- function positionIndicator(){const active=nav.querySelector('button[aria-current=page]');if(!active)return;const parent=nav.getBoundingClientRect(),box=active.getBoundingClientRect();indicator.style.transition=first?'none':'';indicator.style.width=box.width+'px';indicator.style.height=box.height+'px';indicator.style.transform='translate3d('+(box.left-parent.left-nav.clientLeft)+'px,'+(box.top-parent.top-nav.clientTop+nav.scrollTop)+'px,0)';first=false;}
+ function positionIndicator(){const active=nav.querySelector('button[data-page][aria-current=page]');if(!active)return;
+ indicator.style.transition=first?'none':'';
+ // Read layout geometry, never transformed press geometry. Both layers share this box.
+ indicator.style.width=active.offsetWidth+'px';indicator.style.height=active.offsetHeight+'px';indicator.style.transform='translate3d('+active.offsetLeft+'px,'+active.offsetTop+'px,0)';
+ indicator.dataset.lit=String(active.matches(':hover,:focus-visible'));first=false;
+ }
+ function lightSelected(){const active=nav.querySelector('button[data-page][aria-current=page]');indicator.dataset.lit=String(!!active&&active.matches(':hover,:focus-visible'));}
+ ['pointerover','pointerout','focusin','focusout'].forEach(type=>nav.addEventListener(type,lightSelected));
+
  window.YaguanoNavIndicator={update:positionIndicator};new ResizeObserver(positionIndicator).observe(nav);window.addEventListener('resize',positionIndicator);document.fonts.ready.then(positionIndicator);positionIndicator();
+ const themeButton=document.getElementById('theme-toggle');
+ const sun='<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg>';
+ const moon='<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4a8.5 8.5 0 1 0 11.5 11.5Z"/></svg>';
+ function setTheme(theme){const light=theme==='light';root.dataset.theme=light?'light':'dark';window.dispatchEvent(new Event('yaguano-theme-change'));themeButton.innerHTML=light?moon:sun;themeButton.setAttribute('aria-pressed',String(light));themeButton.setAttribute('aria-label',light?'Activar tema oscuro':'Activar tema claro');themeButton.title=themeButton.getAttribute('aria-label');try{localStorage.setItem('yaguano.theme',root.dataset.theme);}catch(e){}}
+ let initialTheme='dark';try{initialTheme=localStorage.getItem('yaguano.theme')||'dark';}catch(e){}setTheme(initialTheme);
+ themeButton.addEventListener('click',()=>setTheme(root.dataset.theme==='light'?'dark':'light'));
  window.YaguanoReference={setOpen(value){setOpen(value,true)},isOpen(){return root.dataset.navOpen==='true'}};
 })();

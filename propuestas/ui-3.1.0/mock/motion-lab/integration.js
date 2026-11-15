@@ -18,9 +18,9 @@ const $=id=>root.querySelector("#"+id);
 $('showAllControls').checked=true;
 const textFirst=document.createElement('section');textFirst.className='lab-text-first card';
 const textLabel=$('sampleText').closest('label');textFirst.appendChild(textLabel);textFirst.appendChild($('twoLines'));
-const originalToggle=$('referenceText').closest('label');textFirst.appendChild(originalToggle);root.prepend(textFirst);
+const originalToggle=$('referenceText').closest('label');originalToggle.hidden=true;textFirst.appendChild(originalToggle);root.prepend(textFirst);
 $('referenceText').checked=false;$('sampleText').value='Tu texto';
-const liveHelp=document.createElement('p');liveHelp.className='desc';liveHelp.textContent='Preview real y controles completos v0.9 · propuesta independiente, sin conexión a AE.';textFirst.appendChild(liveHelp);
+
 
 const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
 const num=(v,f=0)=>Number.isFinite(Number(v))?Number(v):f;
@@ -323,7 +323,7 @@ function render(time){
 function renderThumbs(t){
  for(const obj of thumbScenes){
   const p={...obj.data.p,baseColor:'#ffffff'};
-  obj.scene.reference.configure(renderOptions(obj.data,p,window.YMXReferenceFor(obj.data)?.preset.text||'Meet Qwix',false,true));
+  obj.scene.reference.configure(renderOptions(obj.data,p,'Yaguano',false,true));
   obj.scene.reference.render(motionReduced()?obj.scene.reference.duration:t%obj.scene.reference.duration);
  }
 }
@@ -409,7 +409,7 @@ function status(message){$('ymxStatus').textContent=message;}
 root.querySelector('.native-lab-actions').remove();
 root.querySelector('.bottom > div').textContent='Motion Lab completo · preview y exportaciones reales, sin crear capas en AE desde esta propuesta.';
 $('apply').classList.remove('primary');
-$('ymxStatus').textContent='Propuesta visual · preview real v0.9, sin conexión a After Effects.';
+$('ymxStatus').textContent='';
 let stateTimer;
 listen(root,'change',()=>{clearTimeout(stateTimer);stateTimer=setTimeout(remember,120)});
 listen(root,'input',()=>{clearTimeout(stateTimer);stateTimer=setTimeout(remember,180)});

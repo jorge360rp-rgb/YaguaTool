@@ -1,0 +1,18 @@
+{
+  "libraryPacks": 3,
+  "libraryPresets": 51,
+  "originalFunctionsPreserved": [
+    "pageAepLibrary",
+    "pageTools",
+    "pageGraph",
+    "pageBackgrounds",
+    "pageExpr"
+  ],
+  "railMaxDelta": 0,
+  "prototypeBlocksScriptExecution": true,
+  "motionPreviews": true,
+  "backgroundAnimations": true,
+  "labThumbnailText": "Yaguano",
+  "removedVisibleOriginalToggle": true,
+  "pageErrors": []
+}

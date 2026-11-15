@@ -1,3 +1,11 @@
+# Revisión actual de la propuesta YaguaTool
+
+[Descargar ZIP](propuestas/ui-3.1.0/YaguaTool_UI_Propuesta_Secciones_Recuperadas.zip) · [Informe](propuestas/ui-3.1.0/revision-secciones-recuperadas/INFORME.md) · [Capturas y vídeo](propuestas/ui-3.1.0/revision-secciones-recuperadas)
+
+Descomprime y abre mock/index.html. Solo propuesta visual; el producto instalable no se modifica.
+
+---
+
 # Propuesta visual actualizada
 
 [Descargar la propuesta con Motion Lab completo](propuestas/ui-3.1.0/YagutaTool_UI_Propuesta_MotionLab_Completo.zip) · [Informe y pruebas](propuestas/ui-3.1.0/revision-motion-lab/INFORME.md) · [Capturas y vídeo](propuestas/ui-3.1.0/revision-motion-lab)
