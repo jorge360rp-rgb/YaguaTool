@@ -1,0 +1,15 @@
+{
+  "responsiveRailWidths": 8,
+  "screenshots": 60,
+  "checks": [
+    "rail open/close/persistence/Escape",
+    "switch 38x22 white knob 18, travel 16",
+    "toast naming and timeout",
+    "one ambient primary",
+    "idle/hover/pressed/cancelled halos",
+    "selection DOM retained",
+    "static section content",
+    "reduced motion"
+  ],
+  "pageErrors": []
+}

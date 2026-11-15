@@ -1,3 +1,5 @@
+> Revisión posterior: ver [referencia visual](REFERENCIA_VISUAL.md) e [informe actual](revision-referencia/INFORME.md). Los valores/capturas históricos de este documento se mantienen como contexto; la referencia nueva tiene prioridad.
+
 # Catálogo y sistema de diseño propuestos
 
 Todos los componentes serán propios (HTML/CSS/JS), con los mismos IDs/valores/handlers del producto. La implementación integrará un sistema coherente y retirará reglas antiguas conflictivas; no se limitará a acumular otro fichero de parches.

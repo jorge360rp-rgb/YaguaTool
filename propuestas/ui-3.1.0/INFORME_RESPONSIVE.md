@@ -1,3 +1,5 @@
+> Revisión posterior: ver [referencia visual](REFERENCIA_VISUAL.md) e [informe actual](revision-referencia/INFORME.md). Los valores/capturas históricos de este documento se mantienen como contexto; la referencia nueva tiene prioridad.
+
 # Informe de diagnóstico y propuesta responsive
 
 **No es la validación de un rediseño ya instalado.** El producto 3.1.0 permanece intacto; se comparan base, prueba de solución en DOM y prototipo independiente.

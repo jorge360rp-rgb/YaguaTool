@@ -1,0 +1,71 @@
+ROL
+Actúa como director/a de arte y de diseño de producto (UI/UX) con experiencia en Apple Human Interface Guidelines, sistemas de diseño y paneles de herramientas creativas para After Effects, y como ingeniero/a front-end experto/a en interfaces responsive. Rediseña COMPLETAMENTE la interfaz de toda la extensión CEP "YaguaTool" 3.1.0 (repositorio jorge360rp-rgb/yaguami): una interfaz MUY ATRACTIVA, elegante, intuitiva, homogénea y plenamente responsive, con la marca Yaguano presente.
+
+ESTADO Y APROBACIÓN
+- Base: rama codex/yaguatool-3.1.0-editable-motion-lab, que ya incluye la corrección del PR #4. No la reaplices ni reintroduzcas #include relativos. Código revisable en review/YaguaTool.
+- APRUEBO tu propuesta (DECISIONES_UI.md, MAPA_E_INVENTARIO.md, DEFAULTS_POR_EFECTO.md, INFORME_RESPONSIVE.md, REFERENCIAS.md, mock) con los ajustes de este documento y del documento REFERENCIA_VISUAL.md que te adjunto. Donde haya contradicción, mandan estos dos. Pasa a implementación por fases.
+- Apruebo las excepciones: Count Up/Timer conservan su contenido numérico/temporal y el modo "original" conserva el recurso, siempre que el nombre de capa/comp lleve la marca ("Yaguano · Number", "Yaguano · Timer"). La presencia de marca propuesta (wordmark en cabecera, pie, textos por defecto, nombres de elementos nuevos) está bien tal cual.
+- Versión pública 3.1.0 desde una única constante; acepto la revisión interna/fingerprint del host, con pruebas de recarga/reconexión y rollback.
+
+PRIORIDAD Nº 1: ATRACTIVO VISUAL
+Al abrirla debe provocar "qué bonita". Sobria y elegante, nunca recargada; una herramienta premium de pago.
+- Oscura, profunda y luminosa; superficies en capas con profundidad real; bordes finos de luz; acento azul claro como único color vivo.
+- Acabados obligatorios: resalte interior superior de 1px en tarjetas, sombras suaves coherentes, radios concéntricos, ritmo vertical constante, cifras tabulares, contraste claro entre título, etiqueta y valor.
+- La preview es la protagonista de cada pantalla: tarjeta grande, bien enmarcada, con un resplandor ambiental estático muy sutil (degradado radial del acento al 4-8 %, sin animar).
+- Estados vacíos, de carga y de error DISEÑADOS (icono propio, texto breve y amable, acción clara); carga con esqueleto de brillo sutil, no spinners por defecto. Primer arranque con bienvenida breve (máx. 3 pasos, descartable).
+- Iconografía propia y homogénea (trazo 1.5px) y alineaciones perfectas al píxel.
+- Autocrítica obligatoria: antes de entregar cada fase puntúa de 1 a 10 cada pantalla (atractivo, jerarquía, coherencia, pulido), mejora todo lo que no llegue a 8 y adjunta la tabla con capturas.
+- Elegancia sobre espectacularidad: el efecto "wow" viene del cuidado, la luz y la suavidad, no de colores chillones ni animaciones llamativas.
+
+REFERENCIA VISUAL EXACTA
+Halos, botones, tarjetas, segmented, interruptores, rail activo y animación al pulsar están definidos en REFERENCIA_VISUAL.md. Prefiero ese diseño al del mock actual: reprodúcelo exactamente y úsalo como fuente de verdad (guárdalo en el repositorio).
+
+PREVIEWS REALES EN "EXPLORAR PRESETS"
+- Elimina las miniaturas "Aa" y cualquier marcador genérico. Cada tarjeta (32 de Texto y 33 de Motion Lab) muestra un póster REAL generado con el motor de preview real (Chromium headless, solo herramienta de desarrollo), con el texto por defecto del preset (DEFAULTS_POR_EFECTO.md) en su instante más representativo; WebP ≤10 KB con hash de parámetros.
+- Al pasar el cursor o enfocar: reproduce la animación real en bucle (una a la vez, retardo 150ms, cancelable) en la tarjeta o, en anchuras pequeñas, en la preview principal. Sin aplicar nada.
+- Carga diferida; si falta un póster, solo el nombre (nunca un marcador genérico). Prueba automática que falle si falta o está desfasado.
+
+BARRA LATERAL
+- Riel desplegado de 216px con rejilla fija en TODAS las filas, incluido el logo: padding 12px; columna de icono 20px (el logo comparte el eje); separación 12px; mismo inicio de texto; filas de 36px; títulos de grupo alineados al borde de la columna de icono; sin líneas divisorias entre elementos, solo entre grupos.
+- "Complex text animation" con el nombre completo, sin cortar y SIN sangría extra; si es hija de Texto, indícalo con una línea vertical de 1px en el eje del icono. Si no cupiera, dos líneas con title. Compacto de 44-48px en estrecho; recuerda entre sesiones si está desplegado.
+- Prueba automática: ninguna etiqueta se corta y todos los iconos/textos comparten ejes; capturas a 216px, compacto y estados activo/hover/foco.
+
+BUG PRIORITARIO: COMPLEX TEXT ANIMATION
+Implementa tu solución diagnosticada: frame con max-width:100% y min-width:0 sin altura mínima, hijo de recorte con aspect-ratio y overflow:hidden, imagen con object-fit:contain, caption fuera del recorte, ancestros con min-width:0 y minmax(0,1fr). Misma anatomía para todas las imágenes, vídeos, canvas y SVG raíz. Convierte regression-media.js en regresión que falle ante cualquier desbordamiento. Protege el bake 1920×1080, GeistLab760/YMXGeist y los 33 presets (compara antes/después).
+
+RESPONSIVE
+- Diseño fluido; sin @container ni :has() (Chromium 99). Mínimo 220×360px (240 recomendado); rupturas ≤260, ≤340, ≤480, ≤720, >720 y altura baja ≤480; cero scroll horizontal; nada se sale de su recuadro; barra de acción siempre visible; objetivos de pulsación ≥28-32px.
+- Matriz automática ampliada (anchuras 220/240/280/320/360/420/520/720/1000/1400 × alturas 360/560/800, 15 estados) con bounds, ancestros, imágenes, texto recortado, solapamientos y capturas; debe fallar si hay desbordes. Mantén axe, contraste y doiuse (Chrome 99). Tema oscuro principal; conserva Claro y Midnight.
+
+PUERTA DE CALIDAD EN AE
+Tras la fase 1 entrégame un build instalable para probar en After Effects (acoplado, flotante, escalado 100-200 %) y confirmar halo, máscaras y @property en el CEF real. Documenta cómo activar el modo depuración de CEP. No avances con desbordamientos.
+
+AJUSTES DE PRODUCTO
+- Acento #66C2FF: migra UNA vez a quien no lo haya personalizado y añade "Restablecer a Yaguano" en Ajustes. Los colores propios de presets/imágenes no se recolorean como acentos.
+- Retícula: creación directa en un clic por formato como acción secundaria.
+- Preview fija/plegable en alturas ≤480px.
+- Atajos: "/" busca, flechas navegan presets, Espacio reproduce, Enter aplica.
+- Etiquetas arrastrables como en AE (Shift ×10, Alt ×0,1), doble clic en la etiqueta restablece, doble clic en el valor edita.
+- "Repetir último" en la barra de acción; densidad compacta/cómoda en Ajustes.
+- Buscador global: clic 1 + resultado clic 2 carga cualquier preset sin aplicarlo; favoritos y recientes por ID.
+
+ESTILO BASE
+Tema oscuro, superficies en 3 capas (base muy oscura; elevada +4-6 %; interactiva +8-10 %), bordes 1px ~8 % blanco, rejilla 4/8px, radios concéntricos (controles 8px, tarjetas 12-14px, paneles 16-20px). Tipografía -apple-system, "SF Pro Text", Inter (local, OFL), "Segoe UI"; 13px cuerpo, 11-12px secundario, 15-17px títulos; pesos 400/500/600. Jerarquía de texto por opacidad 100/60/40/25 %. Controles de estilo Apple con convenciones de AE (etiqueta izquierda, valor derecha). Errores/avisos/éxito en colores semánticos discretos. Plantilla común: cabecera → preview → controles principales → avanzado plegado → barra de acción persistente; una sola acción de acento por pantalla; homogeneidad total entre secciones; decide la organización tú, solo consúltame si algo implica quitar o cambiar una función.
+
+BRANDING
+Textos por defecto según DEFAULTS_POR_EFECTO.md; nunca sobrescribas una capa de texto seleccionada. Naming con módulo único (BRAND, BRAND_MOTION, VERSION=3.1.0): "Yaguano · <Efecto>", "Yaguano Shape · …", "Yaguano Ctrl · …", "Yaguano Adj · …", "Yaguano BG", comps "Yaguano Motion · <Efecto>", precomps "Yaguano Pre · …", carpetas "Yaguano Motion/…", controles "Yaguano · <Parámetro>". NO renombres efectos, presets, secciones, controles de UI ni AEP originales; mantén alias para nombres heredados. Documenta en NAMING.md y prueba los nombres.
+
+REGLAS ESTRICTAS
+Chromium 99: sin :has(), @container, color-mix(), oklch/lab, dvh/svh ni scrollbar-width (verifica con caniuse/MDN/doiuse). No rompas el puente CEP ni evalScript; host en ES3; toca los .jsx solo lo imprescindible (naming) y avísame. No elimines funciones, IDs ni clases usadas por el JS; no cambies datos ni valores de presets. Mantén GeistLab760 e Impact; sin recursos externos ni frameworks en el producto.
+
+REFERENCIAS (criterio, no copia; si un enlace no abre, búscalo por nombre; respeta licencias)
+Apple HIG; Adobe Spectrum (spectrum.adobe.com, github.com/adobe/spectrum-css); Vercel Geist; GitHub Primer; IBM Carbon; Fluent 2; Material 3 (motion); Radix Primitives y Colors; shadcn/ui; WAI-ARIA APG; component.gallery; DTCG, Style Dictionary, Open Props; Inter (rsms.me/inter), Geist, Lucide, Phosphor, Tabler; Adobe Leonardo y WCAG 2.2 AA; easings.net, Emil Kowalski, Josh Comeau, web.dev/animations-guide, interfaces.rauno.me; Magic UI Border Beam y Aceternity Moving Border (solo inspiración del halo, reimplementa en CSS puro); MDN (Flexbox, Grid, aspect-ratio, @property, máscaras); every-layout.dev, utopia.fyi; Laws of UX, heurísticas de Nielsen, Refactoring UI; Adobe-CEP/CEP-Resources; paneles nativos de AE como convenciones (Propiedades, Controles de efectos, Essential Graphics); Motion 4, Flow, Overlord, Animation Composer como flujo, no aspecto; inspiración visual (mirar, no copiar): Linear, Raycast, Vercel, Stripe, Framer, apple.com, Dribbble y Behance ("dark UI plugin panel", "glass border glow UI"). Mantén REFERENCIAS.md actualizado.
+
+ENTREGABLES POR FASE
+Capturas por componente (reposo, hover, foco, pulsado, seleccionado) y por pantalla a 240, 320, 420 y 1000px; tabla de autocrítica (1-10); clip del halo y de las pulsaciones; capturas de pósteres y riel; DECISIONES_UI.md, NAMING.md, DEFAULTS_POR_EFECTO.md, INFORME_RESPONSIVE.md y MATRIZ_FUNCIONES actualizados; lista de funciones reubicadas; licencias; resultados de pruebas (scroll, puente CEP simulado, matriz de 450 casos, axe, contraste, doiuse, pósteres, alineación del riel).
+
+PROCESO POR FASES
+1) Medios y base responsive (bug de Complex) → PUERTA DE CALIDAD EN AE. 2) Sistema (tokens, halo, movimiento, naming, interruptores). 3) Navegación y riel. 4) TEXT, Complex y previews reales. 5) Carrousel. 6) Tools y resto. 7) Ajustes, primer arranque, estados vacíos/carga/error y detalles. Tras cada fase ejecuta todas las pruebas; no avances con desbordamientos o regresiones.
+
+COMPROBACIÓN FINAL (cada sección)
+¿Atractiva (≥8) y clara a primera vista? ¿Plantilla común y catálogo sin variantes sueltas? ¿Halo, botones, tarjetas, segmented e interruptores idénticos a REFERENCIA_VISUAL.md? ¿Pulsaciones animadas y cambio de sección estático? ¿Previews reales sin "Aa"? ¿Riel alineado y "Complex text animation" completo? ¿Nada se sale de su recuadro en la matriz? ¿Naming y marca correctos sin cambiar nombres de efectos ni valores de presets? ¿Pasa Chromium 99, accesibilidad y contraste? Termina con la lista de cambios, el informe responsive y qué probar a mano en AE.

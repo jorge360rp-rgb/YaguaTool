@@ -1,3 +1,5 @@
+> Revisión posterior: ver [referencia visual](REFERENCIA_VISUAL.md) e [informe actual](revision-referencia/INFORME.md). Los valores/capturas históricos de este documento se mantienen como contexto; la referencia nueva tiene prioridad.
+
 # Propuesta de rediseño Yaguano · revisión UI de 3.1.0
 
 **Estado: pendiente de aprobación.** No se ha modificado la extensión, el ZIP 3.1.0 ni ningún AEP. El prototipo es independiente y no tiene puente CEP ni acciones de AE. El texto adjunto exige: «Espera mi aprobación de todo esto antes de implementar»; por eso esta entrega concreta las decisiones antes de cambiar el producto.

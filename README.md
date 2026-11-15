@@ -1,3 +1,14 @@
+# Propuesta visual Yaguano · referencia y responsive
+
+- [Descargar propuesta actualizada](propuestas/ui-3.1.0/Yaguano_UI_Propuesta_3.1.0_Referencia.zip)
+- [Informe de cambios y comprobaciones](propuestas/ui-3.1.0/revision-referencia/INFORME.md)
+- [Capturas y clip](propuestas/ui-3.1.0/revision-referencia)
+- [Código de la propuesta](propuestas/ui-3.1.0/mock)
+
+450 casos responsive pasan; 0 infracciones automáticas axe en 12 secciones. Solo propuesta visual: no modifica el producto instalable ni scripts de AE. Descomprime y abre mock/index.html. El rail se abre con el menú superior y conserva su preferencia.
+
+---
+
 # YaguaTool 3.1.0
 
 [Descargar YaguaTool 3.1.0](YaguaTool_3.1.0.zip) · [Novedades y uso de controles](NOVEDADES_3.1.0.md) · [Capturas](previews/3.1.0)

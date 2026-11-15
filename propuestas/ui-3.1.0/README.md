@@ -1,3 +1,17 @@
+# Revisión visual: referencia exacta y rail responsive
+
+**Solo propuesta visual**, según la aclaración del usuario. La extensión instalable no se ha modificado.
+
+- [Descargar la propuesta actualizada](Yaguano_UI_Propuesta_3.1.0_Referencia.zip)
+- [Abrir propuesta interactiva](mock/index.html)
+- [Galería de capturas](revision-referencia/index.html)
+- [Cambios, pruebas y límites](revision-referencia/INFORME.md)
+- [Referencia visual normalizada](REFERENCIA_VISUAL.md)
+
+La documentación y el ZIP de la entrega anterior, a continuación, son históricos. Las capturas y resultados de esta revisión están en `revision-referencia` y `PROTOTIPO_RESPONSIVE.json`.
+
+---
+
 [Descargar propuesta completa con prototipo y todas las capturas](Yaguano_UI_Propuesta_3.1.0.zip)
 
 # Yaguano · Propuesta UI 3.1.0 — pendiente de aprobación
