@@ -1,0 +1,705 @@
+{
+  "protected_files": {
+    "YaguaTool/assets/fluido-reference.png": true,
+    "YaguaTool/assets/fonts/GeistLab760.ttf": true,
+    "YaguaTool/assets/fonts/OFL-Geist.txt": true,
+    "YaguaTool/assets/fonts/geist-latin.woff2": true,
+    "YaguaTool/assets/yaguanimix-icon.png": true,
+    "YaguaTool/js/ae-bridge.js": true,
+    "YaguaTool/js/dynamic-grid.js": true,
+    "YaguaTool/js/lab-live.js": true,
+    "YaguaTool/jsx/carrousel.jsx": true,
+    "YaguaTool/jsx/complex-text.jsx": true,
+    "YaguaTool/jsx/host.jsx": true,
+    "YaguaTool/jsx/lab-editable.jsx": true,
+    "YaguaTool/jsx/lab-native.jsx": true,
+    "YaguaTool/jsx/tools-pro.jsx": true,
+    "YaguaTool/jsx/workflow.jsx": true,
+    "YaguaTool/jsx/yagua-core.jsx": true,
+    "YaguaTool/jsx/yagua-host.jsx": true,
+    "YaguaTool/library/Dynamic Text Animation.aep": true,
+    "YaguaTool/library/Fluido_Original_AE2024.aep": true,
+    "YaguaTool/library/Text Animation 24.x.aep": true,
+    "YaguaTool/library/Text Animation.aep": true,
+    "YaguaTool/motion-lab/bake.js": true,
+    "YaguaTool/motion-lab/catalog-data.js": true,
+    "YaguaTool/motion-lab/reference-player.js": true,
+    "YaguaTool/motion-lab/reference-scene.js": true
+  },
+  "javascript_syntax": "pass",
+  "search_results": 76,
+  "search_select_sweep": "pass",
+  "search_select_lab": "pass",
+  "lab_presets": 33,
+  "lab_parameters": [
+    {
+      "id": "pack-echo-pack-swing-trail",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-echo-pack-afterimage",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-echo-pack-squeeze-arc",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-echo-pack-comet",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-echo-pack-scale-pop",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-echo-pack-tidal-bounce",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-echo-pack-echo-stack",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-echo-pack-word-slam",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-echo-pack-tilt-drift",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-echo-pack-letter-rain",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-echo-pack-halo",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-apple-style-pack-slide",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-apple-style-pack-scale-slam",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-apple-style-pack-color-scale",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-apple-style-pack-slide-delay",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-apple-style-pack-bounce-drop",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-apple-style-pack-blur-rise",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-apple-style-pack-scale-words",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-apple-style-pack-slide-rotation",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-apple-style-pack-scale-tracking",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-demo-reel-pack-red-echo-bounce-in",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-demo-reel-pack-red-echo-bounce-out",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-demo-reel-pack-cyan-glide-in",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-demo-reel-pack-cyan-glide-out",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-demo-reel-pack-magenta-snap-in",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-demo-reel-pack-magenta-snap-out",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-demo-reel-pack-neon-spin-in",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-demo-reel-pack-neon-spin-out",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-demo-reel-pack-pink-pop-in",
+      "controls": 42,
+      "fill": true
+    },
+    {
+      "id": "pack-ghost-pack-rotation-reveal",
+      "controls": 44,
+      "fill": true
+    },
+    {
+      "id": "pack-ghost-pack-skew-reveal",
+      "controls": 44,
+      "fill": true
+    },
+    {
+      "id": "pack-ghost-pack-bounce-reveal",
+      "controls": 44,
+      "fill": true
+    },
+    {
+      "id": "pack-ghost-pack-bounce-rotation-reveal",
+      "controls": 44,
+      "fill": true
+    }
+  ],
+  "responsive": [
+    {
+      "section": "text",
+      "width": 260,
+      "doc": 260,
+      "cw": 260,
+      "view": 212,
+      "vw": 212
+    },
+    {
+      "section": "text",
+      "width": 340,
+      "doc": 340,
+      "cw": 340,
+      "view": 292,
+      "vw": 292
+    },
+    {
+      "section": "text",
+      "width": 420,
+      "doc": 420,
+      "cw": 420,
+      "view": 372,
+      "vw": 372
+    },
+    {
+      "section": "text",
+      "width": 720,
+      "doc": 720,
+      "cw": 720,
+      "view": 672,
+      "vw": 672
+    },
+    {
+      "section": "text",
+      "width": 1100,
+      "doc": 1100,
+      "cw": 1100,
+      "view": 1052,
+      "vw": 1052
+    },
+    {
+      "section": "complex",
+      "width": 260,
+      "doc": 260,
+      "cw": 260,
+      "view": 212,
+      "vw": 212
+    },
+    {
+      "section": "complex",
+      "width": 340,
+      "doc": 340,
+      "cw": 340,
+      "view": 292,
+      "vw": 292
+    },
+    {
+      "section": "complex",
+      "width": 420,
+      "doc": 420,
+      "cw": 420,
+      "view": 372,
+      "vw": 372
+    },
+    {
+      "section": "complex",
+      "width": 720,
+      "doc": 720,
+      "cw": 720,
+      "view": 672,
+      "vw": 672
+    },
+    {
+      "section": "complex",
+      "width": 1100,
+      "doc": 1100,
+      "cw": 1100,
+      "view": 1052,
+      "vw": 1052
+    },
+    {
+      "section": "library",
+      "width": 260,
+      "doc": 260,
+      "cw": 260,
+      "view": 212,
+      "vw": 212
+    },
+    {
+      "section": "library",
+      "width": 340,
+      "doc": 340,
+      "cw": 340,
+      "view": 292,
+      "vw": 292
+    },
+    {
+      "section": "library",
+      "width": 420,
+      "doc": 420,
+      "cw": 420,
+      "view": 372,
+      "vw": 372
+    },
+    {
+      "section": "library",
+      "width": 720,
+      "doc": 720,
+      "cw": 720,
+      "view": 672,
+      "vw": 672
+    },
+    {
+      "section": "library",
+      "width": 1100,
+      "doc": 1100,
+      "cw": 1100,
+      "view": 1052,
+      "vw": 1052
+    },
+    {
+      "section": "carrousel",
+      "width": 260,
+      "doc": 260,
+      "cw": 260,
+      "view": 212,
+      "vw": 212
+    },
+    {
+      "section": "carrousel",
+      "width": 340,
+      "doc": 340,
+      "cw": 340,
+      "view": 292,
+      "vw": 292
+    },
+    {
+      "section": "carrousel",
+      "width": 420,
+      "doc": 420,
+      "cw": 420,
+      "view": 372,
+      "vw": 372
+    },
+    {
+      "section": "carrousel",
+      "width": 720,
+      "doc": 720,
+      "cw": 720,
+      "view": 672,
+      "vw": 672
+    },
+    {
+      "section": "carrousel",
+      "width": 1100,
+      "doc": 1100,
+      "cw": 1100,
+      "view": 1052,
+      "vw": 1052
+    },
+    {
+      "section": "dynamicgrid",
+      "width": 260,
+      "doc": 260,
+      "cw": 260,
+      "view": 212,
+      "vw": 212
+    },
+    {
+      "section": "dynamicgrid",
+      "width": 340,
+      "doc": 340,
+      "cw": 340,
+      "view": 292,
+      "vw": 292
+    },
+    {
+      "section": "dynamicgrid",
+      "width": 420,
+      "doc": 420,
+      "cw": 420,
+      "view": 372,
+      "vw": 372
+    },
+    {
+      "section": "dynamicgrid",
+      "width": 720,
+      "doc": 720,
+      "cw": 720,
+      "view": 672,
+      "vw": 672
+    },
+    {
+      "section": "dynamicgrid",
+      "width": 1100,
+      "doc": 1100,
+      "cw": 1100,
+      "view": 1052,
+      "vw": 1052
+    },
+    {
+      "section": "motion",
+      "width": 260,
+      "doc": 260,
+      "cw": 260,
+      "view": 212,
+      "vw": 212
+    },
+    {
+      "section": "motion",
+      "width": 340,
+      "doc": 340,
+      "cw": 340,
+      "view": 292,
+      "vw": 292
+    },
+    {
+      "section": "motion",
+      "width": 420,
+      "doc": 420,
+      "cw": 420,
+      "view": 372,
+      "vw": 372
+    },
+    {
+      "section": "motion",
+      "width": 720,
+      "doc": 720,
+      "cw": 720,
+      "view": 672,
+      "vw": 672
+    },
+    {
+      "section": "motion",
+      "width": 1100,
+      "doc": 1100,
+      "cw": 1100,
+      "view": 1052,
+      "vw": 1052
+    },
+    {
+      "section": "backgrounds",
+      "width": 260,
+      "doc": 260,
+      "cw": 260,
+      "view": 212,
+      "vw": 212
+    },
+    {
+      "section": "backgrounds",
+      "width": 340,
+      "doc": 340,
+      "cw": 340,
+      "view": 292,
+      "vw": 292
+    },
+    {
+      "section": "backgrounds",
+      "width": 420,
+      "doc": 420,
+      "cw": 420,
+      "view": 372,
+      "vw": 372
+    },
+    {
+      "section": "backgrounds",
+      "width": 720,
+      "doc": 720,
+      "cw": 720,
+      "view": 672,
+      "vw": 672
+    },
+    {
+      "section": "backgrounds",
+      "width": 1100,
+      "doc": 1100,
+      "cw": 1100,
+      "view": 1052,
+      "vw": 1052
+    },
+    {
+      "section": "graph",
+      "width": 260,
+      "doc": 260,
+      "cw": 260,
+      "view": 212,
+      "vw": 212
+    },
+    {
+      "section": "graph",
+      "width": 340,
+      "doc": 340,
+      "cw": 340,
+      "view": 292,
+      "vw": 292
+    },
+    {
+      "section": "graph",
+      "width": 420,
+      "doc": 420,
+      "cw": 420,
+      "view": 372,
+      "vw": 372
+    },
+    {
+      "section": "graph",
+      "width": 720,
+      "doc": 720,
+      "cw": 720,
+      "view": 672,
+      "vw": 672
+    },
+    {
+      "section": "graph",
+      "width": 1100,
+      "doc": 1100,
+      "cw": 1100,
+      "view": 1052,
+      "vw": 1052
+    },
+    {
+      "section": "tools",
+      "width": 260,
+      "doc": 260,
+      "cw": 260,
+      "view": 212,
+      "vw": 212
+    },
+    {
+      "section": "tools",
+      "width": 340,
+      "doc": 340,
+      "cw": 340,
+      "view": 292,
+      "vw": 292
+    },
+    {
+      "section": "tools",
+      "width": 420,
+      "doc": 420,
+      "cw": 420,
+      "view": 372,
+      "vw": 372
+    },
+    {
+      "section": "tools",
+      "width": 720,
+      "doc": 720,
+      "cw": 720,
+      "view": 672,
+      "vw": 672
+    },
+    {
+      "section": "tools",
+      "width": 1100,
+      "doc": 1100,
+      "cw": 1100,
+      "view": 1052,
+      "vw": 1052
+    },
+    {
+      "section": "saved",
+      "width": 260,
+      "doc": 260,
+      "cw": 260,
+      "view": 212,
+      "vw": 212
+    },
+    {
+      "section": "saved",
+      "width": 340,
+      "doc": 340,
+      "cw": 340,
+      "view": 292,
+      "vw": 292
+    },
+    {
+      "section": "saved",
+      "width": 420,
+      "doc": 420,
+      "cw": 420,
+      "view": 372,
+      "vw": 372
+    },
+    {
+      "section": "saved",
+      "width": 720,
+      "doc": 720,
+      "cw": 720,
+      "view": 672,
+      "vw": 672
+    },
+    {
+      "section": "saved",
+      "width": 1100,
+      "doc": 1100,
+      "cw": 1100,
+      "view": 1052,
+      "vw": 1052
+    },
+    {
+      "section": "grid",
+      "width": 260,
+      "doc": 260,
+      "cw": 260,
+      "view": 212,
+      "vw": 212
+    },
+    {
+      "section": "grid",
+      "width": 340,
+      "doc": 340,
+      "cw": 340,
+      "view": 292,
+      "vw": 292
+    },
+    {
+      "section": "grid",
+      "width": 420,
+      "doc": 420,
+      "cw": 420,
+      "view": 372,
+      "vw": 372
+    },
+    {
+      "section": "grid",
+      "width": 720,
+      "doc": 720,
+      "cw": 720,
+      "view": 672,
+      "vw": 672
+    },
+    {
+      "section": "grid",
+      "width": 1100,
+      "doc": 1100,
+      "cw": 1100,
+      "view": 1052,
+      "vw": 1052
+    },
+    {
+      "section": "settings",
+      "width": 260,
+      "doc": 260,
+      "cw": 260,
+      "view": 212,
+      "vw": 212
+    },
+    {
+      "section": "settings",
+      "width": 340,
+      "doc": 340,
+      "cw": 340,
+      "view": 292,
+      "vw": 292
+    },
+    {
+      "section": "settings",
+      "width": 420,
+      "doc": 420,
+      "cw": 420,
+      "view": 372,
+      "vw": 372
+    },
+    {
+      "section": "settings",
+      "width": 720,
+      "doc": 720,
+      "cw": 720,
+      "view": 672,
+      "vw": 672
+    },
+    {
+      "section": "settings",
+      "width": 1100,
+      "doc": 1100,
+      "cw": 1100,
+      "view": 1052,
+      "vw": 1052
+    }
+  ],
+  "inactive_responsive_halos": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "grid_tabs": {
+    "Grid": 19,
+    "Animate": 20,
+    "Backdrop": 6,
+    "Attach": 4
+  },
+  "anchor_gap": "8px",
+  "errors": [],
+  "ae_runtime": "Not executed: After Effects is unavailable in this Linux environment."
+}

@@ -1,3 +1,9 @@
+## Versión actual · 3.1.3
+
+[Descargar extensión para After Effects](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.3/YaguaTool_3.1.3_AfterEffects.zip) · [Propuesta visual](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/propuestas/ui-3.1.0/YaguaTool_UI_3.1.3.zip)
+
+Acciones oscuras con efecto hundido y halo; opciones seleccionadas con relieve; previews de Movimiento azules; Complex Text con referencia estática; nombres actualizados y foco de teclado sin marco al hacer clic. La instalación y el render dentro de AE quedan pendientes de prueba en AE.
+
 ## Pulido actual · 3.1.2
 
 [Descargar extensión completa para After Effects](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.2/YaguaTool_3.1.2_AfterEffects.zip) · [Propuesta visual](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/propuestas/ui-3.1.0/YaguaTool_UI_Pulida_3.1.2.zip) · [Instalación y cambios](https://github.com/jorge360rp-rgb/yaguami/blob/codex/yaguano-ui-reference-responsive/after-effects/3.1.2/README.md)

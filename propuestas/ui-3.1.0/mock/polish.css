@@ -30,3 +30,26 @@
 #view .preset-family-title::before{content:none!important;display:none!important}
 
 .yagua-check-label{min-height:32px;display:inline-flex;align-items:center;gap:8px;line-height:1.5}
+
+/* Recessed actions and raised selection: light belongs to the edge. */
+:root{--action-top:#17212b;--action-bottom:#202c37;--choice-top:#344353;--choice-bottom:#25313e;--button-ink:#e8f5ff;--button-shadow:rgba(0,0,0,.42)}
+html[data-theme=light]{--action-top:#d9e6ef;--action-bottom:#edf5fa;--choice-top:#fff;--choice-bottom:#dcebf6;--button-ink:#17344b;--button-shadow:rgba(24,43,60,.16)}
+#view button.pri,#view button.pri.main,#view button.primary,#view .dg-actions button.pri{background:linear-gradient(180deg,var(--action-top),var(--action-bottom));color:var(--button-ink);border:1px solid rgba(102,194,255,.3);box-shadow:inset 0 2px 5px var(--button-shadow),inset 0 -1px 0 rgba(255,255,255,.06),0 1px 0 rgba(255,255,255,.04)}
+#view button.pri:hover,#view button.primary:hover{border-color:rgba(102,194,255,.6);background:linear-gradient(180deg,var(--action-bottom),var(--action-top))}
+#view button[data-yagua-selected=true]{background:linear-gradient(180deg,var(--choice-top),var(--choice-bottom));color:var(--text);border:1px solid rgba(102,194,255,.6);box-shadow:inset 0 1px 0 rgba(255,255,255,.13),inset 0 -1px 0 rgba(0,0,0,.2),0 2px 7px var(--button-shadow);font-weight:650}
+#view button[data-yagua-selected=true]>.yagua-halo-ring{opacity:.55;animation-play-state:paused}
+#view button[data-yagua-selected=true]:hover>.yagua-halo-ring,#view button[data-yagua-selected=true]:focus-visible>.yagua-halo-ring{opacity:.85;animation-play-state:running}
+#view .seg>button:not(.on),#view .lib-pack-bar>button:not(.pri){color:var(--secondary);box-shadow:none}
+/* Mouse and touch never draw a temporary focus frame. Keyboard focus stays visible. */
+button:focus:not(:focus-visible),summary:focus:not(:focus-visible){outline:none!important}
+html[data-input=pointer] button:focus,html[data-input=pointer] summary:focus,html[data-input=pointer] .halo.is-focus{outline:none!important;outline-offset:0!important}
+html[data-input=keyboard] button:focus-visible,html[data-input=keyboard] summary:focus-visible{outline:2px solid var(--ac)!important;outline-offset:3px!important}
+#view .animix-preview{--pv-accent:#66c2ff}
+#view .pv-shape{background:linear-gradient(135deg,#74cbff,#2878b7);box-shadow:0 8px 24px rgba(102,194,255,.26)}
+#view .pv-spin-shape,#view .pv-bounce-ball{color:#9bd8ff;text-shadow:0 0 22px rgba(102,194,255,.4)}
+#view .pv-pop-card{border-color:rgba(102,194,255,.5);background:#1c2b39}
+#view .pv-pop-card b{color:#bde8ff;background:rgba(102,194,255,.12)}
+
+#actionbar .primary{background:linear-gradient(180deg,var(--action-top),var(--action-bottom));color:var(--button-ink);border:1px solid rgba(102,194,255,.3);box-shadow:inset 0 2px 5px var(--button-shadow),inset 0 -1px 0 rgba(255,255,255,.06)}
+
+.yt-lab .lab-section-head h2 small{display:none}

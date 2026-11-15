@@ -1,4 +1,9 @@
 (function(){
+
+document.documentElement.dataset.input='keyboard';
+document.addEventListener('pointerdown',function(){document.documentElement.dataset.input='pointer';document.querySelectorAll('.is-focus').forEach(function(e){e.classList.remove('is-focus');});},true);
+document.addEventListener('keydown',function(e){if(['Tab','ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Enter',' '].indexOf(e.key)>=0)document.documentElement.dataset.input='keyboard';},true);
+
 var tipOwner=null,tip=document.createElement('div');tip.id='yagua-tooltip';tip.setAttribute('role','tooltip');tip.hidden=true;document.body.appendChild(tip);
 function hideTip(){if(tipOwner){var ids=(tipOwner.getAttribute('aria-describedby')||'').split(/\s+/).filter(function(id){return id&&id!==tip.id;});if(ids.length)tipOwner.setAttribute('aria-describedby',ids.join(' '));else tipOwner.removeAttribute('aria-describedby');}tipOwner=null;tip.hidden=true;}
 function showTip(el){if(!el||!el.dataset.tip)return;hideTip();tipOwner=el;tip.textContent=el.dataset.tip;tip.hidden=false;tip.style.left='12px';tip.style.top='12px';var ids=el.getAttribute('aria-describedby');el.setAttribute('aria-describedby',(ids?ids+' ':'')+tip.id);var box=el.getBoundingClientRect(),width=tip.offsetWidth,height=tip.offsetHeight,pad=12,gap=10;var top=box.bottom+gap;if(top+height>innerHeight-pad)top=box.top-height-gap;tip.style.left=Math.max(pad,Math.min(innerWidth-width-pad,box.left+(box.width-width)/2))+'px';tip.style.top=Math.max(pad,Math.min(innerHeight-height-pad,top))+'px';}
@@ -8,7 +13,12 @@ document.addEventListener('focusin',function(e){var el=e.target.closest('[data-t
 document.addEventListener('scroll',hideTip,true);window.addEventListener('resize',hideTip);document.addEventListener('keydown',function(e){if(e.key==='Escape')hideTip();});
 
 
-function decorate(){document.querySelectorAll('button,summary,.card,.dg-card,.preset-family').forEach(function(e){if(e.id!=='nav-shade'&&!e.classList.contains('preset-family-title'))e.classList.add('halo');});
+function decorate(){
+
+document.querySelectorAll('.seg button').forEach(function(e){e.setAttribute('aria-pressed',String(e.classList.contains('on')));});
+document.querySelectorAll('[data-yagua-selected]').forEach(function(e){e.removeAttribute('data-yagua-selected');});
+document.querySelectorAll('.seg button.on,.lib-pack-bar button.pri,.tools-pro-tabs button.pri,.dg-tabbar button.on,.dg-segments button.on,.yt-lab .pack-tabs button.active,.yt-lab .control-tabs button.active,.tabs button[aria-selected=true]').forEach(function(e){e.dataset.yaguaSelected='true';});
+document.querySelectorAll('button,summary,.card,.dg-card,.preset-family').forEach(function(e){if(e.id!=='nav-shade'&&!e.classList.contains('preset-family-title'))e.classList.add('halo');});
 document.querySelectorAll('.preset-family-title.halo').forEach(function(e){e.classList.remove('halo');});
 document.querySelectorAll('.halo').forEach(function(e){if(!e.querySelector(':scope > .yagua-halo-ring')){var ring=document.createElement('span');ring.className='yagua-halo-ring';ring.setAttribute('aria-hidden','true');e.appendChild(ring);}});
 document.querySelectorAll('.chip').forEach(function(e){if(!e.querySelector('.yagua-selection-mark')){var mark=document.createElement('span');mark.className='yagua-selection-mark';mark.textContent='✓';mark.setAttribute('aria-hidden','true');e.appendChild(mark);}});
@@ -18,5 +28,5 @@ document.querySelectorAll('input[type=checkbox]:not(.yagua-switch)').forEach(fun
 if(tipOwner&&!tipOwner.isConnected)hideTip();
 }
 let queued=false;function queue(){if(!queued){queued=true;requestAnimationFrame(()=>{queued=false;decorate()})}}
-new MutationObserver(queue).observe(document.getElementById("view"),{childList:true,subtree:true});new MutationObserver(queue).observe(document.getElementById("nav"),{childList:true,subtree:true});decorate();
+new MutationObserver(queue).observe(document.getElementById("view"),{childList:true,subtree:true});new MutationObserver(queue).observe(document.getElementById("nav"),{childList:true,subtree:true});decorate();document.addEventListener('click',queue);
 })();

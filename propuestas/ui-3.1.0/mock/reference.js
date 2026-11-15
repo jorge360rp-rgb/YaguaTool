@@ -2,7 +2,7 @@
  const root=document.documentElement,nav=document.getElementById('nav'),toggle=document.getElementById('nav-toggle'),shade=document.getElementById('nav-shade'),mq=matchMedia('(max-width:720px)');
  const key=()=>mq.matches?'yaguano.nav.narrow':'yaguano.nav.wide';
  function stored(){try{const v=localStorage.getItem(key());return v===null?!mq.matches:v==='true';}catch(e){return !mq.matches;}}
- function setOpen(value,persist){root.dataset.navOpen=String(value);toggle.setAttribute('aria-expanded',String(value));toggle.setAttribute('aria-label',value?'Contraer navegación':'Desplegar navegación');toggle.title=toggle.getAttribute('aria-label');shade.hidden=!value||!mq.matches;window.YaguanoNavIndicator?.update();if(persist)try{localStorage.setItem(key(),String(value));}catch(e){} }
+ function setOpen(value,persist){root.dataset.navOpen=String(value);toggle.setAttribute('aria-expanded',String(value));toggle.setAttribute('aria-label',value?'Contraer navegación':'Desplegar navegación');toggle.title='Dashboard';let name=toggle.querySelector('.nav-name');if(!name){name=document.createElement('span');name.className='nav-name';toggle.appendChild(name);}name.textContent='Dashboard';shade.hidden=!value||!mq.matches;window.YaguanoNavIndicator?.update();if(persist)try{localStorage.setItem(key(),String(value));}catch(e){} }
  nav.prepend(toggle);
  toggle.addEventListener('click',()=>setOpen(root.dataset.navOpen!=='true',true));shade.addEventListener('click',()=>{setOpen(false,true);toggle.focus();});mq.addEventListener('change',()=>setOpen(stored(),false));setOpen(stored(),false);
  // The rail stays in the state the user chooses, at every width.
