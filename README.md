@@ -1,3 +1,11 @@
+## Revisión actual · Grid Pro, barridos y After Effects 3.1.1
+
+- [Instalable completo para After Effects 2024/2025](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.1/YaguaTool_3.1.1_AfterEffects.zip)
+- [Propuesta visual actualizada](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/propuestas/ui-3.1.0/YaguaTool_UI_Grid_Barridos.zip)
+- [Instalación, cambios y validación de AE](https://github.com/jorge360rp-rgb/yaguami/blob/codex/yaguano-ui-reference-responsive/after-effects/3.1.1/README.md)
+
+Grid Pro y cinco barridos completos, rail suave, correcciones de halos y espacios. La interfaz ha sido probada en navegador; la instalación y el render dentro de After Effects quedan pendientes de prueba en AE.
+
 # Revisión actual de la propuesta YaguaTool
 
 [Descargar ZIP](propuestas/ui-3.1.0/YaguaTool_UI_Propuesta_Secciones_Recuperadas.zip) · [Informe](propuestas/ui-3.1.0/revision-secciones-recuperadas/INFORME.md) · [Capturas y vídeo](propuestas/ui-3.1.0/revision-secciones-recuperadas)

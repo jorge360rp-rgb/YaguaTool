@@ -94,3 +94,22 @@ html[data-theme=light] .media-clip .preview-title{color:#f1f4f8}
 #nav button[data-page] svg,#nav button[data-page] .nav-name{transition:transform var(--dur-release) var(--ease-out)}
 #nav button[data-page].is-down svg,#nav button[data-page].is-down .nav-name{transform:scale(.97);transition-duration:var(--dur-press)}
 @media(prefers-reduced-motion:reduce){.nav-selection.halo{transition:none}#nav button[data-page].is-down svg,#nav button[data-page].is-down .nav-name{transform:none}}
+
+/* Drawer width uses flex interpolation, available in Chromium 99. */
+:root{--dur-drawer:400ms}
+.workspace{display:flex;min-width:0}
+#nav{flex:0 0 216px;width:216px;min-width:0;transition:width var(--dur-drawer) var(--ease-out),flex-basis var(--dur-drawer) var(--ease-out),padding var(--dur-drawer) var(--ease-out)}
+#view{flex:1 1 0;min-width:0;width:auto}
+html[data-nav-open=false] #nav{flex-basis:48px;width:48px}
+#nav button{overflow:visible}
+@media(max-width:720px){
+ .workspace{display:block;padding-left:48px}
+ #nav,html[data-nav-open=false] #nav,html[data-nav-open=true] #nav{position:absolute;inset:0 auto 0 0;z-index:20;max-width:calc(100% - 8px)}
+ html[data-nav-open=true] #nav{width:216px}
+ html[data-nav-open=false] #nav{width:48px}
+ html[data-nav-open=true] #nav button[data-page]:not([aria-current=page])::before{opacity:0!important;animation-play-state:paused!important}
+}
+.palette-results{grid-auto-rows:max-content;align-content:start;min-height:0}
+.palette-results button{height:auto;min-height:64px;padding:12px 14px;gap:5px;line-height:1.4;align-content:center}
+.palette-results button span,.palette-results button small{white-space:normal;overflow:visible;text-overflow:clip;line-height:1.4}
+@media(prefers-reduced-motion:reduce){#nav{transition:none}}

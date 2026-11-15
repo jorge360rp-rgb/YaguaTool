@@ -1,0 +1,21 @@
+{
+  "target": "Chrome 99",
+  "actualBrowser": "installed Chromium, not CEF99",
+  "warnings": [
+    {
+      "file": "reference.css",
+      "feature": "css-masks",
+      "message": "/workspace/work/yaguano-visual/reference.css:6:210: CSS Masks only partially supported by: Chrome (99) (css-masks)"
+    },
+    {
+      "file": "reference.css",
+      "feature": "css-masks",
+      "message": "/workspace/work/yaguano-visual/reference.css:6:287: CSS Masks only partially supported by: Chrome (99) (css-masks)"
+    },
+    {
+      "file": "reference.css",
+      "feature": "css-masks",
+      "message": "/workspace/work/yaguano-visual/reference.css:6:314: CSS Masks only partially supported by: Chrome (99) (css-masks)"
+    }
+  ]
+}

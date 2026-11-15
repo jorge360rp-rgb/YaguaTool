@@ -1,0 +1,17 @@
+{
+  "lab_not_remounted": true,
+  "alignment": [
+    {
+      "width": 260,
+      "delta": 0.5
+    },
+    {
+      "width": 420,
+      "delta": 0.5
+    },
+    {
+      "width": 1100,
+      "delta": 0.5
+    }
+  ]
+}

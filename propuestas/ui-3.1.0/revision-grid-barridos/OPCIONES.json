@@ -1,0 +1,115 @@
+{
+  "grid": {
+    "Grid": "MOTION SYSTEM / 02\nDynamic Grid\nCuadrículas editables, layouts animados y capas ancladas a celdas.\nGrid\nAnimate\nBackdrop\nAttach\n5 × 5 · classic\nArrastra los divisores\nLayouts rápidos\nClassic 5×5\nColumns\nRows\nBento\nDense 8×8\nMirror cols\nConstrucción\nDivisores V (columnas)\nDivisores H (filas)\nSimetría\nNinguna\nVertical\nHorizontal\nCentral\nDibujar\nCeldas + líneas\nSolo celdas\nSolo líneas\nMarcadores en intersecciones\nEstilo\nGap\n6 px\nRoundness\n10 px\nPeso línea\n2 px\nOpacidad celda\n22%\nBorde celda\n0 px\nCeldas\nLíneas\nMarcadores\nCrear / reconstruir grid\nAplicar disposición\nAplicar estilo\nLeer grid de AE\nEliminar grid\nPrimero crea el grid. Si arrastras divisores, pulsa «Aplicar disposición» para actualizar las formas en After Effects sin reconstruirlas. En un grid animado se añade un keyframe al cabezal; «Aplicar estilo» conserva los anteriores. Cambiar filas, modo de dibujo o marcadores requiere «Reconstruir».",
+    "Animate": "MOTION SYSTEM / 02\nDynamic Grid\nCuadrículas editables, layouts animados y capas ancladas a celdas.\nGrid\nAnimate\nBackdrop\nAttach\n5 × 5 · classic\nArrastra los divisores\nMovimiento por layouts\nBreathe\nShutter\nCollapse & Bloom\nWave\nAccordion\nGolden Split\nSpotlight\nSwing\nStairs\nRhythm Shift\nRandom\nPasa el cursor sobre un preset para ver su comportamiento. Seleccionarlo no altera la composición.\nTiming\nMove in\n0.8 s\nHold\n0.3 s\nEasing\nEasy Ease\nSmooth\nClassic\nPunchy\nBounce & overshoot\nLinear\nEase In\nEase Out\nEase In Out\nQuad In\nQuad Out\nQuad In Out\nCubic In\nCubic Out\nCubic In Out\nQuart In\nQuart Out\nQuart In Out\nQuint In\nQuint Out\nQuint In Out\nSine In\nSine Out\nSine In Out\nExpo In\nExpo Out\nExpo In Out\nBack In\nBack Out\nBack In Out\nElastic Out\nBounce Out\nStagger\n0.045 s\nOrden\nFilas\nColumnas\nInverso\nDesde centro\nAleatorio\nRepetición en bucle\nKeyframes personalizados\nAjusta los divisores arrastrando en la vista previa; guarda cada disposición como un fotograma de layout.\n+ Guardar layout\nActualizar seleccionado\n− Quitar seleccionado\nAnimar preset\nAnimar keyframes\nExtender al cabezal\nQuitar animación\nAnima la geometría de cada celda y divisor en el timeline. Extender conserva los keyframes anteriores. Los keyframes personalizados deben tener igual número de filas y columnas.",
+    "Backdrop": "MOTION SYSTEM / 02\nDynamic Grid\nCuadrículas editables, layouts animados y capas ancladas a celdas.\nGrid\nAnimate\nBackdrop\nAttach\n5 × 5 · classic\nArrastra los divisores\nFondo del grid\nSólido\nGradiente\nCapa\nArchivo\nColor\nOpacidad\n100%\nEl fondo se coloca detrás del grid y de las capas de la composición.\nCrear / actualizar fondo\nQuitar fondo",
+    "Attach": "MOTION SYSTEM / 02\nDynamic Grid\nCuadrículas editables, layouts animados y capas ancladas a celdas.\nGrid\nAnimate\nBackdrop\nAttach\n5 × 5 · classic\n0 selección(es)\nRevelar imagen / anclar capas\nAcción\nRevelar fondo (imagen fija)\nMover imagen con la celda (sin reescalar)\nCentrar imagen en la celda\nLa imagen no se mueve; únicamente la máscara descubre una parte del fondo.\nSeleccionar\nCeldas\nLíneas\nIntersecciones\nGesto\nUna sola celda\nVarias con clics\nBloque arrastrando\nDistribución\nOne area · un bloque\nOne each · una por capa\nHaz clic en el cuadro deseado: se reemplazará cualquier selección anterior.\nSin destinos seleccionados\nCrear máscara de revelado\nDesvincular / quitar máscara\nReparar vínculo antiguo\nComprobar vínculo en AE\nLimpiar selección\nSi la imagen no acompaña a la celda, selecciona la capa y pulsa «Comprobar vínculo en AE». El informe mostrará errores de expresiones y cambios de posición.\nSelecciona una imagen o vídeo en el timeline. La máscara deja la imagen fija; coloca un sólido negro debajo para ocultar el exterior."
+  },
+  "sweeps": {
+    "0": {
+      "text": "Barridos de color · 5 estilos\nElige un barrido. Al aplicar uno nuevo se sustituye el anterior de YaguaTool; tus animaciones IN/OUT permanecen intactas.\nColor Sweep Glow\nCoral suave · luz integrada en las letras.\nIridescent Silk\nBrillo perla, lavanda y rosa.\nChrome Glint\nReflejo metálico plata y azul frío.\nPrism Split\nTriple separación de color, gráfica y expresiva.\nSignal Scan\nEscaneo digital de estética CRT.\nBlur del barrido\npx\nDesenfoque localizado durante el barrido (0 = nítido). Después puedes ajustarlo desde Efectos de After Effects.\nVista previa · sweep\nVista CSS orientativa · usa «Preview real en AE» para verlo fielmente\n↻ Reproducir\nYaguano\nYaguano\nCOLOR SWEEP GLOW\n▶ Preview real de Color Sweep en AE\nPaleta rápida\nPersonalizada\nCoral · melocotón/coral\nEléctrico · cian/azul/violeta\nAzul · violeta\nApple\nAurora\nSunset\nIce\nFire\nPuedes elegir una combinación rápida o modificar individualmente los tres colores.\nColor 1\nColor 2\nColor 3\nAncho de banda\npx\nSeparación de colores\nSuavidad del borde\nIntensidad de color\n%\nHalo luminoso\n%\nInspirado en la referencia de luz tipográfica: color cálido sobre los contornos de las letras, transición corta y un halo muy contenido. Evita un gran manchón coloreado.\nAplicar por líneas\nTodo el texto a la vez\nLínea 1 → línea 2 → ...\nPausa entre líneas\ns\nAparición del texto\nSeguir animación existente (recomendado)\nCrear aparición adicional sin tocar Source Text\nEl color se anima sobre los caracteres originales y mantiene las máscaras y keyframes existentes. En modo Seguir copia la curva del selector de texto si existe; de otro modo usa el tiempo de la capa. El halo es una copia opcional independiente.\nRetraso\ns\nOrientación\nHorizontal\nVertical\nDuración\ns\nModo\nEntrada\nSalida\nIda y vuelta\nAplicar Color Sweep Glow\nQuitar barrido\n↺ Restablecer",
+      "controls": 39
+    },
+    "1": {
+      "text": "Barridos de color · 5 estilos\nElige un barrido. Al aplicar uno nuevo se sustituye el anterior de YaguaTool; tus animaciones IN/OUT permanecen intactas.\nColor Sweep Glow\nCoral suave · luz integrada en las letras.\nIridescent Silk\nBrillo perla, lavanda y rosa.\nChrome Glint\nReflejo metálico plata y azul frío.\nPrism Split\nTriple separación de color, gráfica y expresiva.\nSignal Scan\nEscaneo digital de estética CRT.\nBlur del barrido\npx\nDesenfoque localizado durante el barrido (0 = nítido). Después puedes ajustarlo desde Efectos de After Effects.\nBrillo perla, lavanda y rosa. Edita el barrido sobre las letras existentes, sin sustituir IN ni OUT.\nColor 1\nColor 2\nColor 3\nAncho\n%\nSuavidad\n%\nIntensidad\n%\nDuración\ns\nDesfase\ns\nInicio\nCabezal\nCapa\nSeguir la animación IN compatible\nRecorrido inverso\nUna línea tras otra\nAplicar Iridescent Silk\n▶ Preview real en AE\nQuitar barrido\nDespués de aplicar, cambia Blur, ancho, colores e intensidad desde los controles de Efectos de la capa de texto.",
+      "controls": 28
+    },
+    "2": {
+      "text": "Barridos de color · 5 estilos\nElige un barrido. Al aplicar uno nuevo se sustituye el anterior de YaguaTool; tus animaciones IN/OUT permanecen intactas.\nColor Sweep Glow\nCoral suave · luz integrada en las letras.\nIridescent Silk\nBrillo perla, lavanda y rosa.\nChrome Glint\nReflejo metálico plata y azul frío.\nPrism Split\nTriple separación de color, gráfica y expresiva.\nSignal Scan\nEscaneo digital de estética CRT.\nBlur del barrido\npx\nDesenfoque localizado durante el barrido (0 = nítido). Después puedes ajustarlo desde Efectos de After Effects.\nReflejo metálico plata y azul frío. Edita el barrido sobre las letras existentes, sin sustituir IN ni OUT.\nColor 1\nColor 2\nColor 3\nAncho\n%\nSuavidad\n%\nIntensidad\n%\nDuración\ns\nDesfase\ns\nInicio\nCabezal\nCapa\nSeguir la animación IN compatible\nRecorrido inverso\nUna línea tras otra\nAplicar Chrome Glint\n▶ Preview real en AE\nQuitar barrido\nDespués de aplicar, cambia Blur, ancho, colores e intensidad desde los controles de Efectos de la capa de texto.",
+      "controls": 28
+    },
+    "3": {
+      "text": "Barridos de color · 5 estilos\nElige un barrido. Al aplicar uno nuevo se sustituye el anterior de YaguaTool; tus animaciones IN/OUT permanecen intactas.\nColor Sweep Glow\nCoral suave · luz integrada en las letras.\nIridescent Silk\nBrillo perla, lavanda y rosa.\nChrome Glint\nReflejo metálico plata y azul frío.\nPrism Split\nTriple separación de color, gráfica y expresiva.\nSignal Scan\nEscaneo digital de estética CRT.\nBlur del barrido\npx\nDesenfoque localizado durante el barrido (0 = nítido). Después puedes ajustarlo desde Efectos de After Effects.\nTriple separación de color, gráfica y expresiva. Edita el barrido sobre las letras existentes, sin sustituir IN ni OUT.\nColor 1\nColor 2\nColor 3\nAncho\n%\nSuavidad\n%\nIntensidad\n%\nDuración\ns\nDesfase\ns\nInicio\nCabezal\nCapa\nSeguir la animación IN compatible\nRecorrido inverso\nUna línea tras otra\nAplicar Prism Split\n▶ Preview real en AE\nQuitar barrido\nDespués de aplicar, cambia Blur, ancho, colores e intensidad desde los controles de Efectos de la capa de texto.",
+      "controls": 28
+    },
+    "4": {
+      "text": "Barridos de color · 5 estilos\nElige un barrido. Al aplicar uno nuevo se sustituye el anterior de YaguaTool; tus animaciones IN/OUT permanecen intactas.\nColor Sweep Glow\nCoral suave · luz integrada en las letras.\nIridescent Silk\nBrillo perla, lavanda y rosa.\nChrome Glint\nReflejo metálico plata y azul frío.\nPrism Split\nTriple separación de color, gráfica y expresiva.\nSignal Scan\nEscaneo digital de estética CRT.\nBlur del barrido\npx\nDesenfoque localizado durante el barrido (0 = nítido). Después puedes ajustarlo desde Efectos de After Effects.\nEscaneo digital de estética CRT. Edita el barrido sobre las letras existentes, sin sustituir IN ni OUT.\nColor 1\nColor 2\nColor 3\nAncho\n%\nSuavidad\n%\nIntensidad\n%\nDuración\ns\nDesfase\ns\nInicio\nCabezal\nCapa\nSeguir la animación IN compatible\nRecorrido inverso\nUna línea tras otra\nAplicar Signal Scan\n▶ Preview real en AE\nQuitar barrido\nDespués de aplicar, cambia Blur, ancho, colores e intensidad desde los controles de Efectos de la capa de texto.",
+      "controls": 28
+    }
+  },
+  "anchor": {
+    "gap": "8px",
+    "rows": "38px 38px 38px",
+    "rects": [
+      {
+        "x": 683,
+        "y": 1903.40625,
+        "w": 38,
+        "h": 38
+      },
+      {
+        "x": 729,
+        "y": 1903.40625,
+        "w": 38,
+        "h": 38
+      },
+      {
+        "x": 775,
+        "y": 1903.40625,
+        "w": 38,
+        "h": 38
+      },
+      {
+        "x": 683,
+        "y": 1949.40625,
+        "w": 38,
+        "h": 38
+      },
+      {
+        "x": 729,
+        "y": 1949.40625,
+        "w": 38,
+        "h": 38
+      },
+      {
+        "x": 775,
+        "y": 1949.40625,
+        "w": 38,
+        "h": 38
+      },
+      {
+        "x": 683,
+        "y": 1995.40625,
+        "w": 38,
+        "h": 38
+      },
+      {
+        "x": 729,
+        "y": 1995.40625,
+        "w": 38,
+        "h": 38
+      },
+      {
+        "x": 775,
+        "y": 1995.40625,
+        "w": 38,
+        "h": 38
+      }
+    ]
+  },
+  "drawer_widths": [
+    64.8125,
+    162.578125,
+    206.28125,
+    214.140625,
+    216
+  ],
+  "inactive_halos": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "search": {
+    "height": 65,
+    "scroll": 64,
+    "client": 63
+  }
+}
