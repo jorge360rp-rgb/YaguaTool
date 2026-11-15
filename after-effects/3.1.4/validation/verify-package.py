@@ -9,9 +9,10 @@ with zipfile.ZipFile(archive) as z:
  names=set(z.namelist());prefix='Extension/YaguaTool/'
  runtime=[n for n in names if n.startswith(prefix)]
  assert runtime
+ assert not any(n.startswith('Documentacion/') or n=='LEEME.txt' for n in names)
  assert all(n.removeprefix(prefix).split('/')[0] in allowed for n in runtime)
  assert not any('/qa/' in n or n.endswith(('.md','.bat','.ps1','.command')) for n in runtime if '/assets/' not in n)
- for name in ['install_windows.bat','install_windows.ps1','Install-Core.ps1','install_mac.command','PACKAGE_INTEGRITY.json','Documentacion/INSTALACION.md','Documentacion/NOVEDADES.md']:
+ for name in ['install_windows.bat','install_windows.ps1','Install-Core.ps1','install_mac.command','PACKAGE_INTEGRITY.json']:
   assert name in names,name
  assert z.read('Install-Core.ps1')==(version/'installer/Install-Core.ps1').read_bytes()
  assert z.read('install_windows.ps1')==(version/'installer/install_windows.ps1').read_bytes()
@@ -31,5 +32,12 @@ with zipfile.ZipFile(archive) as z:
    if (version/'patch'/relative).exists():continue
    assert original.read(name)==z.read(prefix+relative),relative
    unchanged+=1
- result={'runtime_files':len(runtime),'integrity_files':len(records),'original_unmodified_files':unchanged,'folders':['Extension/YaguaTool','Documentacion'],'all_references_exist':True,'runtime_has_no_docs_or_installers':True,'windows_launchers_in_root':True,'mac_executable':True}
+ result={'runtime_files':len(runtime),'integrity_files':len(records),'original_unmodified_files':unchanged,'folders':['Extension/YaguaTool'],'all_references_exist':True,'runtime_has_no_docs_or_installers':True,'windows_launchers_in_root':True,'mac_executable':True}
  (here/'PACKAGE.json').write_text(json.dumps(result,indent=2));print('PASS package:',result)
+
+with zipfile.ZipFile(version/'YaguaTool_3.1.4_Solo_Extension.zip') as solo,zipfile.ZipFile(archive) as full:
+ assert len(solo.namelist())==len(runtime)
+ for name in solo.namelist():
+  assert name.startswith('YaguaTool/')
+  assert solo.read(name)==full.read('Extension/'+name)
+print('PASS runtime-only archive: identical runtime, no installers or documentation')

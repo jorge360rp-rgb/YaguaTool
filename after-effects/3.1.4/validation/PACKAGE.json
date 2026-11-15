@@ -3,8 +3,7 @@
   "integrity_files": 89,
   "original_unmodified_files": 78,
   "folders": [
-    "Extension/YaguaTool",
-    "Documentacion"
+    "Extension/YaguaTool"
   ],
   "all_references_exist": true,
   "runtime_has_no_docs_or_installers": true,

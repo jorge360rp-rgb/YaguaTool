@@ -2,12 +2,11 @@
 
 Panel completo para AE 2024/2025, con botones Glass, cierres más cómodos e instalador Windows renovado. Conserva los motores, presets, controles editables y recursos de la extensión anterior.
 
-Extrae todo `YaguaTool_3.1.4_AfterEffects.zip`, cierra AE y ejecuta `install_windows.bat` o `install_mac.command` desde la raíz del paquete. No necesitas administrador. Las instrucciones completas están en `Documentacion/INSTALACION.md`.
+Extrae todo `YaguaTool_3.1.4_AfterEffects.zip`, cierra AE y ejecuta `install_windows.bat` o `install_mac.command` desde la raíz del paquete. No necesitas administrador. Las instrucciones completas están en `INSTALACION.md` de este repositorio.
 
-El ZIP separa dos carpetas:
+El paquete instalable contiene `Extension/YaguaTool` y los archivos necesarios para instalarla. Se han retirado historial, documentación, novedades, validación y archivos de lectura del ZIP. Las instrucciones y pruebas quedan disponibles en este repositorio.
 
-- **Extension/YaguaTool**: solo el panel y sus recursos. Esta es la carpeta que puedes copiar manualmente a `%APPDATA%\Adobe\CEP\extensions`.
-- **Documentacion**: novedades, instrucciones, historial y validación.
+`YaguaTool_3.1.4_Solo_Extension.zip` contiene únicamente la carpeta `YaguaTool`, lista para copiar a `%APPDATA%\Adobe\CEP\extensions`.
 
 Los instaladores quedan en la raíz. El de Windows copia a la carpeta Roaming del usuario actual, verifica SHA-256, crea respaldo y restaura la versión anterior ante un fallo de la transacción. Las copias con el mismo ID CEP se respaldan fuera de CEP. Los registros quedan en `%LOCALAPPDATA%\YaguaTool\InstallLogs`.
 

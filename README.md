@@ -1,8 +1,14 @@
+## Descarga limpia · 3.1.4
+
+[Solo extensión, lista para copiar a CEP](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.4/YaguaTool_3.1.4_Solo_Extension.zip) · [Paquete limpio con instaladores](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.4/YaguaTool_3.1.4_AfterEffects.zip)
+
+Sin historial, novedades, validación ni documentación dentro de los ZIP. Las instrucciones y pruebas están en el repositorio.
+
 ## Versión actual · 3.1.4 · Glass e instalador
 
 [Descargar paquete completo para After Effects](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.4/YaguaTool_3.1.4_AfterEffects.zip) · [Propuesta visual](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/propuestas/ui-3.1.0/YaguaTool_UI_3.1.4.zip)
 
-El ZIP separa `Extension/YaguaTool` de `Documentacion`. Extrae todo y ejecuta `install_windows.bat` desde la raíz: instala en la carpeta CEP Roaming del usuario, con integridad, respaldo local y restauración ante fallos. Botones con acabado Glass y cruces de 36 px. La lógica de archivos se prueba con PowerShell en Linux; la ejecución del instalador en Windows y el render en AE requieren prueba en esos sistemas.
+El ZIP contiene `Extension/YaguaTool` y los instaladores; la documentación se consulta en el repositorio. Extrae todo y ejecuta `install_windows.bat` desde la raíz: instala en la carpeta CEP Roaming del usuario, con integridad, respaldo local y restauración ante fallos. Botones con acabado Glass y cruces de 36 px. La lógica de archivos se prueba con PowerShell en Linux; la ejecución del instalador en Windows y el render en AE requieren prueba en esos sistemas.
 
 ## Versión actual · 3.1.3
 

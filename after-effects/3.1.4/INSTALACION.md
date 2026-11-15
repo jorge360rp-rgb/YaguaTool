@@ -12,10 +12,10 @@ Copia los archivos, comprueba su integridad, respalda la instalación anterior y
 
 El respaldo se guarda fuera de CEP y de las carpetas protegidas de Documentos/OneDrive, en `%LOCALAPPDATA%\YaguaTool\Backups`. El registro de cada ejecución queda en `%LOCALAPPDATA%\YaguaTool\InstallLogs`. Si se bloquea la ejecución por una política del equipo, la consola muestra el error y permanece abierta. El instalador usa Windows PowerShell 5.1, incluido en Windows 10/11; no necesita instalar PowerShell 7.
 
-## Carpetas
+## Paquete limpio
 
 - `Extension/YaguaTool`: archivos del panel y recursos necesarios para AE. Sin notas de versiones, instaladores ni pruebas.
-- `Documentacion`: instrucciones, novedades, historial y resultados de validación.
+- La documentación, el historial y las pruebas se consultan en este repositorio y se excluyen del ZIP.
 - En la raíz: instaladores y manifiesto de integridad del paquete.
 
 ## Instalación manual

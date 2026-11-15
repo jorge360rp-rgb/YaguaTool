@@ -10,6 +10,6 @@ pause
 exit /b %YAGUA_EXIT%
 :incomplete
 echo Extrae TODO el ZIP antes de ejecutar install_windows.bat.
-echo Deben estar juntas las carpetas Extension y Documentacion y los archivos del instalador.
+echo Deben estar juntas la carpeta Extension y los archivos del instalador.
 pause
 exit /b 1
