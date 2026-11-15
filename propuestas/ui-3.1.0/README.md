@@ -1,3 +1,9 @@
+## Pulido actual · 3.1.2
+
+[Descargar extensión completa para After Effects](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.2/YaguaTool_3.1.2_AfterEffects.zip) · [Propuesta visual](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/propuestas/ui-3.1.0/YaguaTool_UI_Pulida_3.1.2.zip) · [Instalación y cambios](https://github.com/jorge360rp-rgb/yaguami/blob/codex/yaguano-ui-reference-responsive/after-effects/3.1.2/README.md)
+
+Corregidos la marca de selección, el halo del contenedor, el espacio de Zoom, las ayudas responsive y los checkboxes. La ejecución y el render dentro de AE quedan pendientes de prueba en AE.
+
 ## Revisión actual · Grid Pro, barridos y After Effects 3.1.1
 
 - [Instalable completo para After Effects 2024/2025](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.1/YaguaTool_3.1.1_AfterEffects.zip)

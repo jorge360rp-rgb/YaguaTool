@@ -1,0 +1,32 @@
+/* Border light owns a separate layer; no interaction with chevrons or help text. */
+.halo::before{content:none!important;display:none!important}
+.yagua-halo-ring{position:absolute!important;inset:0!important;width:auto!important;height:auto!important;min-width:0!important;min-height:0!important;display:block!important;padding:1px!important;border:0!important;border-radius:inherit!important;pointer-events:none!important;z-index:2;background:conic-gradient(from var(--a),transparent 0 50%,var(--ac2) 78%,transparent 100%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:0;transition:opacity var(--dur-base) var(--ease-std);animation:spin var(--dur-orbit) linear infinite;animation-play-state:paused}
+.halo:hover>.yagua-halo-ring,.halo:focus-visible>.yagua-halo-ring,.halo:focus-within>.yagua-halo-ring,.halo.is-down>.yagua-halo-ring{opacity:.75;animation-play-state:running}
+.halo.main>.yagua-halo-ring{opacity:.4;animation-duration:var(--dur-orbit-main);animation-play-state:running}
+#nav .nav-selection[data-lit=true]>.yagua-halo-ring{opacity:.75;animation-play-state:running}
+#nav button[aria-current=page]>.yagua-halo-ring{display:none!important}
+#view .preset-family{position:relative;overflow:visible;border-radius:10px}
+#view .preset-family-title{border-radius:10px}
+#view .chip::after,body.tips [data-tip]:hover::after{content:none!important;display:none!important}
+#view .chip{position:relative;display:flex;flex-direction:row;align-items:center;text-align:left;min-height:38px}
+#view .chip.on{padding-right:36px}
+#view .chip>.yagua-selection-mark{display:none;position:absolute;right:10px;left:auto;top:50%;bottom:auto;transform:translateY(-50%);width:15px;height:15px;min-width:15px;border:0;border-radius:50%;background:var(--ac);color:#0d0e11;font:600 10px/1 sans-serif;place-items:center;pointer-events:none}
+#view .chip.on>.yagua-selection-mark{display:grid}
+#view .extras-panel>h3{margin:0 0 18px}
+#view .extras-body>h3{margin:16px 0 12px}
+#view .extras-body>h3+.card{margin-top:0}
+#view .desc,#view .phase-help,#view .phase-footnote{font-size:12px;line-height:1.55;white-space:normal;overflow-wrap:break-word;word-break:normal;min-width:0;max-width:100%}
+#yagua-tooltip{position:fixed;z-index:2000;box-sizing:border-box;width:max-content;max-width:min(300px,calc(100vw - 24px));padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--s1);color:var(--text);font:400 12px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-align:left;white-space:normal;word-break:normal;overflow-wrap:break-word;pointer-events:none;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+#view input[type=checkbox]:not(.yagua-switch){-webkit-appearance:none;appearance:none;position:relative;width:16px;height:16px;min-width:16px;min-height:16px;max-width:16px;padding:0;margin:0;border:1px solid var(--secondary);border-radius:5px;background:var(--s1);vertical-align:middle;cursor:pointer;flex-shrink:0;transition:background var(--dur-fast) var(--ease-std),border-color var(--dur-fast) var(--ease-std)}
+#view input[type=checkbox]:not(.yagua-switch):checked{background-color:var(--ac);border-color:var(--ac);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='m4 8 2.5 2.5L12 5' fill='none' stroke='%230d0e11' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+#view input[type=checkbox]:not(.yagua-switch):focus-visible{outline:2px solid var(--ac);outline-offset:3px}
+#view .ymx-all-toggle,#view .loop-label,#view .ymx-reference-tools label{min-height:32px;display:flex;align-items:center;gap:8px}
+@media(max-width:480px){#view .desc,#view .phase-help,#view .phase-footnote{font-size:11px;line-height:1.5}#yagua-tooltip{font-size:11px;line-height:1.5}}
+@media(max-width:720px){html[data-nav-open=true] #nav button[data-page]:not([aria-current=page])>.yagua-halo-ring{opacity:0!important;animation-play-state:paused}}
+@media(prefers-reduced-motion:reduce){.yagua-halo-ring{animation:none!important}}
+@media(hover:none){.halo>.yagua-halo-ring{opacity:.22;animation-play-state:running;animation-duration:var(--dur-orbit-touch)}.halo.main>.yagua-halo-ring{opacity:.4;animation-duration:var(--dur-orbit-main)}}
+.halo:disabled>.yagua-halo-ring{opacity:0;animation-play-state:paused}
+@media(max-width:720px){html[data-nav-open=true] #nav button[data-page]:not([aria-current=page])>.yagua-halo-ring{opacity:0!important;animation-play-state:paused}}
+#view .preset-family-title::before{content:none!important;display:none!important}
+
+.yagua-check-label{min-height:32px;display:inline-flex;align-items:center;gap:8px;line-height:1.5}
