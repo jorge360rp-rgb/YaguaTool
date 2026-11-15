@@ -1,0 +1,54 @@
+[
+  {
+    "state": "text",
+    "violations": []
+  },
+  {
+    "state": "complex",
+    "violations": []
+  },
+  {
+    "state": "library",
+    "violations": []
+  },
+  {
+    "state": "carrousel",
+    "violations": []
+  },
+  {
+    "state": "motion",
+    "violations": []
+  },
+  {
+    "state": "backgrounds",
+    "violations": []
+  },
+  {
+    "state": "graph",
+    "violations": []
+  },
+  {
+    "state": "tools",
+    "violations": []
+  },
+  {
+    "state": "saved",
+    "violations": []
+  },
+  {
+    "state": "grid",
+    "violations": []
+  },
+  {
+    "state": "dynamicgrid",
+    "violations": []
+  },
+  {
+    "state": "settings",
+    "violations": []
+  },
+  {
+    "state": "motion-lab",
+    "violations": []
+  }
+]

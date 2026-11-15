@@ -29,3 +29,7 @@ Cobertura de halos: botones, tarjetas, pestañas, opciones de segmented, wrapper
 Reduced motion: sin animación orbital ni escala; transiciones instantáneas y estados accesibles conservados. Cambio de sección: contenido estático, sin transición o indicador móvil; el botón del rail sí da feedback de pulsación. Todas las duraciones/easings usan tokens.
 
 Responsive: recuperar el despliegue del rail; 216 px abierto, 48 px compacto, nombres completos, memoria entre sesiones y cierre con Escape, fondo y selección. No se cambia el código de la extensión funcional.
+
+## Ajustes posteriores del usuario
+
+La última indicación sustituye la selección estática del rail por un cuadro que se desplaza suavemente. El contenido sigue estático y reduced motion elimina ese movimiento. El rail no se cierra al seleccionar. La marca visual pasa a YagutaTool / Motion Lab. Grid Pro es la última sección de Crear. Complex usa T + estrella sin línea vertical. Motion Lab usa su módulo completo y sus previews originales.

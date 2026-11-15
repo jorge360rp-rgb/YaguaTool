@@ -1,3 +1,11 @@
+# Propuesta visual actualizada
+
+[Descargar la propuesta con Motion Lab completo](propuestas/ui-3.1.0/YagutaTool_UI_Propuesta_MotionLab_Completo.zip) · [Informe y pruebas](propuestas/ui-3.1.0/revision-motion-lab/INFORME.md) · [Capturas y vídeo](propuestas/ui-3.1.0/revision-motion-lab)
+
+Solo propuesta visual: la extensión instalable no se modifica. Descomprime y abre mock/index.html.
+
+---
+
 # Propuesta visual Yaguano · referencia y responsive
 
 - [Descargar propuesta actualizada](propuestas/ui-3.1.0/Yaguano_UI_Propuesta_3.1.0_Referencia.zip)

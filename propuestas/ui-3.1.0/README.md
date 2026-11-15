@@ -1,3 +1,14 @@
+# Propuesta actual: Motion Lab completo y últimos ajustes
+
+- [Descargar ZIP actualizado](YagutaTool_UI_Propuesta_MotionLab_Completo.zip)
+- [Cambios y auditoría de controles](revision-motion-lab/INFORME.md)
+- [Capturas y vídeo actuales](revision-motion-lab)
+- [Abrir propuesta](mock/index.html)
+
+Marca YagutaTool / Motion Lab, rail con selección animada, Grid Pro en Crear y controles completos de Motion Lab. Las entregas de referencia anteriores que aparecen a continuación son históricas.
+
+---
+
 # Revisión visual: referencia exacta y rail responsive
 
 **Solo propuesta visual**, según la aclaración del usuario. La extensión instalable no se ha modificado.

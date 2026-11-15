@@ -1,0 +1,14 @@
+{
+  "createOrder": [
+    "text",
+    "complex",
+    "library",
+    "carrousel",
+    "dynamicgrid"
+  ],
+  "branding": "YagutaTool",
+  "subtitle": "Motion Lab",
+  "subtitleWeight": 300,
+  "complexExtraLine": false,
+  "railAutoClosesOnSelection": false
+}

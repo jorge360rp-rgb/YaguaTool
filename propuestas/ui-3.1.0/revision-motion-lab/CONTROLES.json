@@ -1,0 +1,173 @@
+{
+  "presets": [
+    {
+      "name": "Swing Trail",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Afterimage",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Squeeze Arc",
+      "parameters": 55,
+      "missing": []
+    },
+    {
+      "name": "Comet",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Scale Pop",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Tidal Bounce",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Echo Stack",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Word Slam",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Tilt Drift",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Letter Rain",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Halo",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Slide",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Scale Slam",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Color Scale",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Slide Delay",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Bounce Drop",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Blur Rise",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Scale Words",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Slide Rotation",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Scale Tracking",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Red Echo Bounce In",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Red Echo Bounce Out",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Cyan Glide In",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Cyan Glide Out",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Magenta Snap In",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Magenta Snap Out",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Neon Spin In",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Neon Spin Out",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Pink Pop In",
+      "parameters": 48,
+      "missing": []
+    },
+    {
+      "name": "Rotation Reveal",
+      "parameters": 116,
+      "missing": []
+    },
+    {
+      "name": "Skew Reveal",
+      "parameters": 115,
+      "missing": []
+    },
+    {
+      "name": "Bounce Reveal",
+      "parameters": 115,
+      "missing": []
+    },
+    {
+      "name": "Bounce Rotation Reveal",
+      "parameters": 115,
+      "missing": []
+    }
+  ],
+  "distanceResponds": true,
+  "fiveFillPasses": true,
+  "echoEditable": true,
+  "errors": []
+}

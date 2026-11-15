@@ -1,0 +1,9 @@
+{
+  "livePreview": true,
+  "thumbnailClockAdvances": true,
+  "disposeWhenLeaving": true,
+  "rendererAndCatalogueByteIdentical": true,
+  "indicatorIntermediateFrame": true,
+  "railStaysOpen": true,
+  "branding": "YagutaTool / Motion Lab"
+}

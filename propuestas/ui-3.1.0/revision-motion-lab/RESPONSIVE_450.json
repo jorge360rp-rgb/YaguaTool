@@ -1,0 +1,3156 @@
+{
+  "cases": 450,
+  "errors": [],
+  "report": [
+    {
+      "state": "text",
+      "width": 220,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/text-220x360.jpg"
+    },
+    {
+      "state": "text",
+      "width": 220,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/text-220x560.jpg"
+    },
+    {
+      "state": "text",
+      "width": 220,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/text-220x800.jpg"
+    },
+    {
+      "state": "text",
+      "width": 240,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/text-240x360.jpg"
+    },
+    {
+      "state": "text",
+      "width": 240,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/text-240x560.jpg"
+    },
+    {
+      "state": "text",
+      "width": 240,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/text-240x800.jpg"
+    },
+    {
+      "state": "text",
+      "width": 280,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/text-280x360.jpg"
+    },
+    {
+      "state": "text",
+      "width": 280,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/text-280x560.jpg"
+    },
+    {
+      "state": "text",
+      "width": 280,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/text-280x800.jpg"
+    },
+    {
+      "state": "text",
+      "width": 320,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/text-320x360.jpg"
+    },
+    {
+      "state": "text",
+      "width": 320,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/text-320x560.jpg"
+    },
+    {
+      "state": "text",
+      "width": 320,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/text-320x800.jpg"
+    },
+    {
+      "state": "text",
+      "width": 360,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/text-360x360.jpg"
+    },
+    {
+      "state": "text",
+      "width": 360,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/text-360x560.jpg"
+    },
+    {
+      "state": "text",
+      "width": 360,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/text-360x800.jpg"
+    },
+    {
+      "state": "text",
+      "width": 420,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/text-420x360.jpg"
+    },
+    {
+      "state": "text",
+      "width": 420,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/text-420x560.jpg"
+    },
+    {
+      "state": "text",
+      "width": 420,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/text-420x800.jpg"
+    },
+    {
+      "state": "text",
+      "width": 520,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/text-520x360.jpg"
+    },
+    {
+      "state": "text",
+      "width": 520,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/text-520x560.jpg"
+    },
+    {
+      "state": "text",
+      "width": 520,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/text-520x800.jpg"
+    },
+    {
+      "state": "text",
+      "width": 720,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/text-720x360.jpg"
+    },
+    {
+      "state": "text",
+      "width": 720,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/text-720x560.jpg"
+    },
+    {
+      "state": "text",
+      "width": 720,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/text-720x800.jpg"
+    },
+    {
+      "state": "text",
+      "width": 1000,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/text-1000x360.jpg"
+    },
+    {
+      "state": "text",
+      "width": 1000,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/text-1000x560.jpg"
+    },
+    {
+      "state": "text",
+      "width": 1000,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/text-1000x800.jpg"
+    },
+    {
+      "state": "text",
+      "width": 1400,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/text-1400x360.jpg"
+    },
+    {
+      "state": "text",
+      "width": 1400,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/text-1400x560.jpg"
+    },
+    {
+      "state": "text",
+      "width": 1400,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/text-1400x800.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 220,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-220x360.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 220,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-220x560.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 220,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-220x800.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 240,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-240x360.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 240,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-240x560.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 240,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-240x800.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 280,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-280x360.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 280,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-280x560.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 280,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-280x800.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 320,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-320x360.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 320,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-320x560.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 320,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-320x800.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 360,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-360x360.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 360,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-360x560.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 360,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-360x800.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 420,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-420x360.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 420,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-420x560.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 420,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-420x800.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 520,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-520x360.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 520,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-520x560.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 520,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-520x800.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 720,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-720x360.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 720,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-720x560.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 720,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-720x800.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 1000,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-1000x360.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 1000,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-1000x560.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 1000,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-1000x800.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 1400,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-1400x360.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 1400,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-1400x560.jpg"
+    },
+    {
+      "state": "complex",
+      "width": 1400,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/complex-1400x800.jpg"
+    },
+    {
+      "state": "library",
+      "width": 220,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/library-220x360.jpg"
+    },
+    {
+      "state": "library",
+      "width": 220,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/library-220x560.jpg"
+    },
+    {
+      "state": "library",
+      "width": 220,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/library-220x800.jpg"
+    },
+    {
+      "state": "library",
+      "width": 240,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/library-240x360.jpg"
+    },
+    {
+      "state": "library",
+      "width": 240,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/library-240x560.jpg"
+    },
+    {
+      "state": "library",
+      "width": 240,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/library-240x800.jpg"
+    },
+    {
+      "state": "library",
+      "width": 280,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/library-280x360.jpg"
+    },
+    {
+      "state": "library",
+      "width": 280,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/library-280x560.jpg"
+    },
+    {
+      "state": "library",
+      "width": 280,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/library-280x800.jpg"
+    },
+    {
+      "state": "library",
+      "width": 320,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/library-320x360.jpg"
+    },
+    {
+      "state": "library",
+      "width": 320,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/library-320x560.jpg"
+    },
+    {
+      "state": "library",
+      "width": 320,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/library-320x800.jpg"
+    },
+    {
+      "state": "library",
+      "width": 360,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/library-360x360.jpg"
+    },
+    {
+      "state": "library",
+      "width": 360,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/library-360x560.jpg"
+    },
+    {
+      "state": "library",
+      "width": 360,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/library-360x800.jpg"
+    },
+    {
+      "state": "library",
+      "width": 420,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/library-420x360.jpg"
+    },
+    {
+      "state": "library",
+      "width": 420,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/library-420x560.jpg"
+    },
+    {
+      "state": "library",
+      "width": 420,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/library-420x800.jpg"
+    },
+    {
+      "state": "library",
+      "width": 520,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/library-520x360.jpg"
+    },
+    {
+      "state": "library",
+      "width": 520,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/library-520x560.jpg"
+    },
+    {
+      "state": "library",
+      "width": 520,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/library-520x800.jpg"
+    },
+    {
+      "state": "library",
+      "width": 720,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/library-720x360.jpg"
+    },
+    {
+      "state": "library",
+      "width": 720,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/library-720x560.jpg"
+    },
+    {
+      "state": "library",
+      "width": 720,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/library-720x800.jpg"
+    },
+    {
+      "state": "library",
+      "width": 1000,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/library-1000x360.jpg"
+    },
+    {
+      "state": "library",
+      "width": 1000,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/library-1000x560.jpg"
+    },
+    {
+      "state": "library",
+      "width": 1000,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/library-1000x800.jpg"
+    },
+    {
+      "state": "library",
+      "width": 1400,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/library-1400x360.jpg"
+    },
+    {
+      "state": "library",
+      "width": 1400,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/library-1400x560.jpg"
+    },
+    {
+      "state": "library",
+      "width": 1400,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/library-1400x800.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 220,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-220x360.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 220,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-220x560.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 220,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-220x800.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 240,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-240x360.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 240,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-240x560.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 240,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-240x800.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 280,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-280x360.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 280,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-280x560.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 280,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-280x800.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 320,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-320x360.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 320,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-320x560.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 320,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-320x800.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 360,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-360x360.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 360,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-360x560.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 360,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-360x800.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 420,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-420x360.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 420,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-420x560.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 420,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-420x800.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 520,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-520x360.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 520,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-520x560.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 520,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-520x800.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 720,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-720x360.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 720,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-720x560.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 720,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-720x800.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 1000,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-1000x360.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 1000,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-1000x560.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 1000,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-1000x800.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 1400,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-1400x360.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 1400,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-1400x560.jpg"
+    },
+    {
+      "state": "carrousel",
+      "width": 1400,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/carrousel-1400x800.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 220,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-220x360.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 220,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-220x560.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 220,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-220x800.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 240,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-240x360.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 240,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-240x560.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 240,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-240x800.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 280,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-280x360.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 280,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-280x560.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 280,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-280x800.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 320,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-320x360.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 320,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-320x560.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 320,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-320x800.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 360,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-360x360.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 360,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-360x560.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 360,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-360x800.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 420,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-420x360.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 420,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-420x560.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 420,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-420x800.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 520,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-520x360.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 520,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-520x560.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 520,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-520x800.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 720,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-720x360.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 720,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-720x560.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 720,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-720x800.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 1000,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-1000x360.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 1000,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-1000x560.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 1000,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-1000x800.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 1400,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-1400x360.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 1400,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-1400x560.jpg"
+    },
+    {
+      "state": "motion",
+      "width": 1400,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-1400x800.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 220,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-220x360.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 220,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-220x560.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 220,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-220x800.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 240,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-240x360.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 240,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-240x560.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 240,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-240x800.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 280,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-280x360.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 280,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-280x560.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 280,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-280x800.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 320,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-320x360.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 320,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-320x560.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 320,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-320x800.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 360,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-360x360.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 360,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-360x560.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 360,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-360x800.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 420,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-420x360.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 420,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-420x560.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 420,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-420x800.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 520,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-520x360.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 520,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-520x560.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 520,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-520x800.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 720,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-720x360.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 720,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-720x560.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 720,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-720x800.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 1000,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-1000x360.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 1000,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-1000x560.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 1000,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-1000x800.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 1400,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-1400x360.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 1400,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-1400x560.jpg"
+    },
+    {
+      "state": "backgrounds",
+      "width": 1400,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/backgrounds-1400x800.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 220,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-220x360.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 220,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-220x560.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 220,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-220x800.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 240,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-240x360.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 240,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-240x560.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 240,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-240x800.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 280,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-280x360.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 280,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-280x560.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 280,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-280x800.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 320,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-320x360.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 320,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-320x560.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 320,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-320x800.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 360,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-360x360.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 360,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-360x560.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 360,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-360x800.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 420,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-420x360.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 420,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-420x560.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 420,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-420x800.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 520,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-520x360.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 520,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-520x560.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 520,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-520x800.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 720,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-720x360.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 720,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-720x560.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 720,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-720x800.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 1000,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-1000x360.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 1000,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-1000x560.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 1000,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-1000x800.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 1400,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-1400x360.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 1400,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-1400x560.jpg"
+    },
+    {
+      "state": "graph",
+      "width": 1400,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/graph-1400x800.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 220,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-220x360.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 220,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-220x560.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 220,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-220x800.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 240,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-240x360.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 240,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-240x560.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 240,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-240x800.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 280,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-280x360.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 280,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-280x560.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 280,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-280x800.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 320,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-320x360.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 320,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-320x560.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 320,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-320x800.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 360,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-360x360.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 360,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-360x560.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 360,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-360x800.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 420,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-420x360.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 420,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-420x560.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 420,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-420x800.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 520,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-520x360.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 520,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-520x560.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 520,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-520x800.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 720,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-720x360.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 720,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-720x560.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 720,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-720x800.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 1000,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-1000x360.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 1000,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-1000x560.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 1000,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-1000x800.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 1400,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-1400x360.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 1400,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-1400x560.jpg"
+    },
+    {
+      "state": "tools",
+      "width": 1400,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-1400x800.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 220,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-220x360.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 220,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-220x560.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 220,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-220x800.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 240,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-240x360.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 240,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-240x560.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 240,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-240x800.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 280,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-280x360.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 280,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-280x560.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 280,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-280x800.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 320,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-320x360.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 320,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-320x560.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 320,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-320x800.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 360,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-360x360.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 360,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-360x560.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 360,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-360x800.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 420,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-420x360.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 420,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-420x560.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 420,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-420x800.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 520,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-520x360.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 520,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-520x560.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 520,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-520x800.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 720,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-720x360.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 720,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-720x560.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 720,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-720x800.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 1000,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-1000x360.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 1000,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-1000x560.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 1000,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-1000x800.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 1400,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-1400x360.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 1400,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-1400x560.jpg"
+    },
+    {
+      "state": "saved",
+      "width": 1400,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/saved-1400x800.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 220,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-220x360.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 220,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-220x560.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 220,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-220x800.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 240,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-240x360.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 240,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-240x560.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 240,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-240x800.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 280,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-280x360.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 280,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-280x560.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 280,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-280x800.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 320,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-320x360.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 320,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-320x560.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 320,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-320x800.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 360,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-360x360.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 360,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-360x560.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 360,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-360x800.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 420,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-420x360.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 420,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-420x560.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 420,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-420x800.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 520,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-520x360.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 520,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-520x560.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 520,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-520x800.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 720,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-720x360.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 720,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-720x560.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 720,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-720x800.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 1000,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-1000x360.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 1000,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-1000x560.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 1000,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-1000x800.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 1400,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-1400x360.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 1400,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-1400x560.jpg"
+    },
+    {
+      "state": "grid",
+      "width": 1400,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/grid-1400x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 220,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-220x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 220,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-220x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 220,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-220x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 240,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-240x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 240,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-240x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 240,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-240x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 280,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-280x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 280,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-280x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 280,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-280x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 320,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-320x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 320,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-320x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 320,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-320x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 360,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-360x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 360,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-360x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 360,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-360x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 420,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-420x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 420,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-420x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 420,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-420x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 520,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-520x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 520,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-520x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 520,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-520x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 720,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-720x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 720,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-720x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 720,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-720x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 1000,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-1000x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 1000,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-1000x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 1000,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-1000x800.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 1400,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-1400x360.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 1400,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-1400x560.jpg"
+    },
+    {
+      "state": "dynamicgrid",
+      "width": 1400,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/dynamicgrid-1400x800.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 220,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-220x360.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 220,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-220x560.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 220,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-220x800.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 240,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-240x360.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 240,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-240x560.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 240,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-240x800.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 280,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-280x360.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 280,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-280x560.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 280,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-280x800.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 320,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-320x360.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 320,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-320x560.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 320,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-320x800.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 360,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-360x360.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 360,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-360x560.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 360,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-360x800.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 420,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-420x360.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 420,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-420x560.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 420,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-420x800.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 520,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-520x360.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 520,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-520x560.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 520,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-520x800.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 720,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-720x360.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 720,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-720x560.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 720,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-720x800.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 1000,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-1000x360.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 1000,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-1000x560.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 1000,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-1000x800.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 1400,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-1400x360.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 1400,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-1400x560.jpg"
+    },
+    {
+      "state": "settings",
+      "width": 1400,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/settings-1400x800.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 220,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-220x360.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 220,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-220x560.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 220,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-220x800.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 240,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-240x360.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 240,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-240x560.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 240,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-240x800.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 280,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-280x360.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 280,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-280x560.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 280,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-280x800.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 320,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-320x360.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 320,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-320x560.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 320,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-320x800.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 360,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-360x360.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 360,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-360x560.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 360,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-360x800.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 420,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-420x360.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 420,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-420x560.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 420,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-420x800.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 520,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-520x360.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 520,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-520x560.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 520,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-520x800.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 720,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-720x360.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 720,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-720x560.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 720,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-720x800.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 1000,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-1000x360.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 1000,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-1000x560.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 1000,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-1000x800.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 1400,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-1400x360.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 1400,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-1400x560.jpg"
+    },
+    {
+      "state": "motion-lab",
+      "width": 1400,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/motion-lab-1400x800.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 220,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-220x360.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 220,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-220x560.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 220,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-220x800.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 240,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-240x360.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 240,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-240x560.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 240,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-240x800.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 280,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-280x360.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 280,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-280x560.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 280,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-280x800.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 320,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-320x360.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 320,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-320x560.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 320,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-320x800.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 360,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-360x360.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 360,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-360x560.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 360,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-360x800.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 420,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-420x360.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 420,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-420x560.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 420,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-420x800.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 520,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-520x360.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 520,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-520x560.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 520,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-520x800.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 720,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-720x360.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 720,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-720x560.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 720,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-720x800.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 1000,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-1000x360.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 1000,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-1000x560.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 1000,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-1000x800.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 1400,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-1400x360.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 1400,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-1400x560.jpg"
+    },
+    {
+      "state": "tools-shapes",
+      "width": 1400,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-shapes-1400x800.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 220,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-220x360.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 220,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-220x560.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 220,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-220x800.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 240,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-240x360.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 240,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-240x560.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 240,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-240x800.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 280,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-280x360.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 280,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-280x560.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 280,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-280x800.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 320,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-320x360.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 320,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-320x560.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 320,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-320x800.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 360,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-360x360.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 360,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-360x560.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 360,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-360x800.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 420,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-420x360.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 420,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-420x560.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 420,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-420x800.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 520,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-520x360.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 520,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-520x560.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 520,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-520x800.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 720,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-720x360.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 720,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-720x560.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 720,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-720x800.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 1000,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-1000x360.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 1000,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-1000x560.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 1000,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-1000x800.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 1400,
+      "height": 360,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-1400x360.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 1400,
+      "height": 560,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-1400x560.jpg"
+    },
+    {
+      "state": "tools-code",
+      "width": 1400,
+      "height": 800,
+      "issues": [],
+      "screenshot": "proposal-captures/tools-code-1400x800.jpg"
+    }
+  ]
+}
