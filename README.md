@@ -1,5 +1,7 @@
 # YaguaTool 3.1.4 · Motion Lab para After Effects
 
+**[Hilo de presentación y descargas en GitHub](https://github.com/jorge360rp-rgb/yaguami/issues/7)**
+
 **Texto animado, layouts, curvas y utilidades de edición en un único panel para After Effects.** YaguaTool combina una interfaz Glass con herramientas de creación y ajustes editables, desde una animación de texto hasta una cuadrícula con capas vinculadas.
 
 ## Dos descargas, la misma extensión
