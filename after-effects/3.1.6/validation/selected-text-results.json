@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "scope": "API simulation; AE pixels and actual rendering not tested",
+  "compatibleDefaultExamples": [
+    {
+      "name": "apple-style-pack-slide",
+      "animators": 8
+    },
+    {
+      "name": "apple-style-pack-slide-delay",
+      "animators": 8
+    },
+    {
+      "name": "apple-style-pack-blur-rise",
+      "animators": 8
+    },
+    {
+      "name": "apple-style-pack-bounce-drop",
+      "animators": 8
+    },
+    {
+      "name": "apple-style-pack-scale-tracking",
+      "animators": 9
+    }
+  ],
+  "checks": [
+    "original text/font/transforms/user animator preserved",
+    "one existing text layer; no comp API available",
+    "timing and font-size ratio",
+    "per-character indexed selection and visible/hidden opacity",
+    "repeat replaces owned animators",
+    "partial-failure rollback",
+    "stale selection rejected",
+    "complex Bounce Rotation Reveal rejected without mutation",
+    "unsupported Echo rejected",
+    "animated source and locked layer rejected",
+    "insufficient layer duration rejected",
+    "remove preserves user animator even after source text changes",
+    "preview saves 32 frames and restores composition time/resolution/render state",
+    "preview failure cleans partial frames and restores state"
+  ]
+}

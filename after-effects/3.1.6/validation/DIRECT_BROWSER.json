@@ -1,0 +1,14 @@
+{
+  "scope": "Chromium + simulated CEP/AE API; not an AE pixel render",
+  "status": "passed",
+  "checks": [
+    "read actual selected text into sampling",
+    "apply native text animators through CEP bridge",
+    "no new layers or project items",
+    "preserve original text/font/color",
+    "Bounce Rotation Reveal blocked without mutation",
+    "remove direct animators",
+    "AE preview action visible"
+  ],
+  "errors": []
+}

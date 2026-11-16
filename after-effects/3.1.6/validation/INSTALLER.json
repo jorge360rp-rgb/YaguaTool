@@ -1,0 +1,15 @@
+{
+  "os": "Unix",
+  "engine": "7.7.0",
+  "windowsLauncher": "Not executed on Linux",
+  "windowsRegistry": "Not executed on Linux",
+  "checks": [
+    "First install including hidden .debug; spaces, brackets and apostrophe; exact CEP destination",
+    "Upgrade backups by copy; duplicate ID disabled; unrelated plugin preserved",
+    "Already-installed source is not moved or recursively copied",
+    "Post-copy failure restores previous installation",
+    "Fresh-install failure removes partial destination",
+    "Integrity failure leaves installed version untouched",
+    "In-CEP staging rejected before changes"
+  ]
+}

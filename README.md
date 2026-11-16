@@ -1,16 +1,14 @@
-# YaguaTool 3.1.5 · Motion Lab para After Effects
+# YaguaTool 3.1.6 · Motion Lab para After Effects
 
 **[Presentación de la interfaz 3.1.4 en GitHub](https://github.com/jorge360rp-rgb/YaguaTool/issues/7)**
 
 **Texto animado, layouts, curvas y utilidades de edición en un único panel para After Effects.** YaguaTool combina una interfaz Glass con herramientas de creación y ajustes editables, desde una animación de texto hasta una cuadrícula con capas vinculadas.
 
-## Motion Lab optimizado en 3.1.5
+## Motion Lab 3.1.6 · modo directo experimental
 
-La generación nativa elimina keyframes redundantes y reduce las capas auxiliares cuando la transformación lo permite. Se mantienen 60 fps, los controles editables y los datos del motor original.
+Se añade la aplicación a una capa de texto existente para ajustes compatibles, sin precomposiciones ni capas por letra, y una preview bajo demanda renderizada por AE. El compositor completo conserva todos los controles y recupera su jerarquía de transformaciones anterior a 3.1.5.
 
-En los 33 presets de referencia: **76,8 % menos de keyframes y 38,6 % menos de capas**. La comparación de 633.008 poses incluye instantes entre fotogramas en una API AE simulada; no mide el tiempo ni los píxeles renderizados en After Effects.
-
-Instala con AE cerrado y crea la animación de nuevo para usar la estructura optimizada. Las composiciones anteriores no se reescriben al instalar. [Detalle y resultados](after-effects/3.1.5/README.md).
+**La diferencia visual de Bounce Rotation Reveal sigue pendiente de comprobar en After Effects.** Este preset conserva el compositor completo; no se simplifica para admitirlo en el nuevo modo. Las pruebas locales simulan la API de AE y no verifican píxeles ni tiempos de render reales. [Uso, compatibilidad y límites](after-effects/3.1.6/README.md).
 
 Las capturas siguientes corresponden a la interfaz 3.1.4, que se mantiene en esta actualización.
 
@@ -18,8 +16,8 @@ Las capturas siguientes corresponden a la interfaz 3.1.4, que se mantiene en est
 
 | Descarga | Contenido | Para quién |
 | --- | --- | --- |
-| **[Paquete limpio con instaladores](https://raw.githubusercontent.com/jorge360rp-rgb/YaguaTool/codex/yaguano-ui-reference-responsive/after-effects/3.1.5/YaguaTool_3.1.5_AfterEffects.zip)** | Extensión, instaladores Windows/macOS, guía breve de instalación y guía de funciones. | Uso habitual e instalación. |
-| **[Paquete completo con historial y validación](https://raw.githubusercontent.com/jorge360rp-rgb/YaguaTool/codex/yaguano-ui-reference-responsive/after-effects/3.1.5/YaguaTool_3.1.5_Completo.zip)** | Todo lo anterior, más historial, notas técnicas, pruebas y capturas en `Documentacion`. | Revisión, desarrollo y consulta del proceso. |
+| **[Paquete limpio con instaladores](https://raw.githubusercontent.com/jorge360rp-rgb/YaguaTool/codex/yaguano-ui-reference-responsive/after-effects/3.1.6/YaguaTool_3.1.6_AfterEffects.zip)** | Extensión, instaladores Windows/macOS, guía breve de instalación y guía de funciones. | Instalación y prueba del modo directo experimental. |
+| **[Paquete completo con historial y validación](https://raw.githubusercontent.com/jorge360rp-rgb/YaguaTool/codex/yaguano-ui-reference-responsive/after-effects/3.1.6/YaguaTool_3.1.6_Completo.zip)** | Todo lo anterior, más historial, notas técnicas, pruebas y capturas en `Documentacion`. | Revisión, desarrollo y consulta del proceso. |
 
 Ambos contienen los mismos archivos del panel y los mismos instaladores. La documentación adicional queda fuera de `Extension/YaguaTool`, para mantener limpia la carpeta instalada en CEP.
 
