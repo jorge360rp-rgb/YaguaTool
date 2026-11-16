@@ -1,0 +1,181 @@
+{
+  "scope": "File identity with 3.1.4 and regenerated default data; no AE pixel rendering",
+  "unchangedEngineFiles": [
+    "jsx/lab-native.jsx",
+    "jsx/lab-editable.jsx",
+    "motion-lab/reference-player.js",
+    "motion-lab/reference-scene.js",
+    "motion-lab/bake.js",
+    "motion-lab/catalog-data.js"
+  ],
+  "defaultPresets": [
+    {
+      "id": "pack-echo-pack-swing-trail",
+      "text": "Yaguano",
+      "frames": 84
+    },
+    {
+      "id": "pack-echo-pack-afterimage",
+      "text": "Yaguano",
+      "frames": 103
+    },
+    {
+      "id": "pack-echo-pack-squeeze-arc",
+      "text": "Yaguano",
+      "frames": 134
+    },
+    {
+      "id": "pack-echo-pack-comet",
+      "text": "Yaguano",
+      "frames": 105
+    },
+    {
+      "id": "pack-echo-pack-scale-pop",
+      "text": "Yaguano",
+      "frames": 106
+    },
+    {
+      "id": "pack-echo-pack-tidal-bounce",
+      "text": "Yaguano",
+      "frames": 148
+    },
+    {
+      "id": "pack-echo-pack-echo-stack",
+      "text": "Yaguano",
+      "frames": 139
+    },
+    {
+      "id": "pack-echo-pack-word-slam",
+      "text": "Yaguano",
+      "frames": 87
+    },
+    {
+      "id": "pack-echo-pack-tilt-drift",
+      "text": "Yaguano",
+      "frames": 121
+    },
+    {
+      "id": "pack-echo-pack-letter-rain",
+      "text": "Yaguano",
+      "frames": 143
+    },
+    {
+      "id": "pack-echo-pack-halo",
+      "text": "Yaguano",
+      "frames": 102
+    },
+    {
+      "id": "pack-apple-style-pack-slide",
+      "text": "Yaguano",
+      "frames": 141
+    },
+    {
+      "id": "pack-apple-style-pack-scale-slam",
+      "text": "Yaguano",
+      "frames": 103
+    },
+    {
+      "id": "pack-apple-style-pack-color-scale",
+      "text": "Yaguano",
+      "frames": 79
+    },
+    {
+      "id": "pack-apple-style-pack-slide-delay",
+      "text": "Yaguano",
+      "frames": 89
+    },
+    {
+      "id": "pack-apple-style-pack-bounce-drop",
+      "text": "Yaguano",
+      "frames": 216
+    },
+    {
+      "id": "pack-apple-style-pack-blur-rise",
+      "text": "Yaguano",
+      "frames": 91
+    },
+    {
+      "id": "pack-apple-style-pack-scale-words",
+      "text": "Yaguano",
+      "frames": 85
+    },
+    {
+      "id": "pack-apple-style-pack-slide-rotation",
+      "text": "Yaguano",
+      "frames": 91
+    },
+    {
+      "id": "pack-apple-style-pack-scale-tracking",
+      "text": "Yaguano",
+      "frames": 133
+    },
+    {
+      "id": "pack-demo-reel-pack-red-echo-bounce-in",
+      "text": "Yaguano",
+      "frames": 75
+    },
+    {
+      "id": "pack-demo-reel-pack-red-echo-bounce-out",
+      "text": "Yaguano",
+      "frames": 78
+    },
+    {
+      "id": "pack-demo-reel-pack-cyan-glide-in",
+      "text": "Yaguano",
+      "frames": 110
+    },
+    {
+      "id": "pack-demo-reel-pack-cyan-glide-out",
+      "text": "Yaguano",
+      "frames": 98
+    },
+    {
+      "id": "pack-demo-reel-pack-magenta-snap-in",
+      "text": "Yaguano",
+      "frames": 87
+    },
+    {
+      "id": "pack-demo-reel-pack-magenta-snap-out",
+      "text": "Yaguano",
+      "frames": 76
+    },
+    {
+      "id": "pack-demo-reel-pack-neon-spin-in",
+      "text": "Yaguano",
+      "frames": 99
+    },
+    {
+      "id": "pack-demo-reel-pack-neon-spin-out",
+      "text": "Yaguano",
+      "frames": 78
+    },
+    {
+      "id": "pack-demo-reel-pack-pink-pop-in",
+      "text": "Yaguano",
+      "frames": 82
+    },
+    {
+      "id": "pack-ghost-pack-rotation-reveal",
+      "text": "Yaguano",
+      "frames": 126
+    },
+    {
+      "id": "pack-ghost-pack-skew-reveal",
+      "text": "Yaguano",
+      "frames": 85
+    },
+    {
+      "id": "pack-ghost-pack-bounce-reveal",
+      "text": "Yaguano",
+      "frames": 116
+    },
+    {
+      "id": "pack-ghost-pack-bounce-rotation-reveal",
+      "text": "Yaguano",
+      "frames": 115
+    }
+  ],
+  "allDefaultTexts": "Yaguano",
+  "defaultParametersUnchanged": true,
+  "noExperimentalTextAdapter": true
+}

@@ -1,0 +1,170 @@
+{
+  "scope": "Original nativo host API and layer creation in a simulated AE API, no real AE render",
+  "presets": [
+    {
+      "id": "pack-echo-pack-swing-trail",
+      "text": "Yaguano",
+      "glyphLayers": 77
+    },
+    {
+      "id": "pack-echo-pack-afterimage",
+      "text": "Yaguano",
+      "glyphLayers": 112
+    },
+    {
+      "id": "pack-echo-pack-squeeze-arc",
+      "text": "Yaguano",
+      "glyphLayers": 91
+    },
+    {
+      "id": "pack-echo-pack-comet",
+      "text": "Yaguano",
+      "glyphLayers": 119
+    },
+    {
+      "id": "pack-echo-pack-scale-pop",
+      "text": "Yaguano",
+      "glyphLayers": 91
+    },
+    {
+      "id": "pack-echo-pack-tidal-bounce",
+      "text": "Yaguano",
+      "glyphLayers": 98
+    },
+    {
+      "id": "pack-echo-pack-echo-stack",
+      "text": "Yaguano",
+      "glyphLayers": 63
+    },
+    {
+      "id": "pack-echo-pack-word-slam",
+      "text": "Yaguano",
+      "glyphLayers": 63
+    },
+    {
+      "id": "pack-echo-pack-tilt-drift",
+      "text": "Yaguano",
+      "glyphLayers": 133
+    },
+    {
+      "id": "pack-echo-pack-letter-rain",
+      "text": "Yaguano",
+      "glyphLayers": 56
+    },
+    {
+      "id": "pack-echo-pack-halo",
+      "text": "Yaguano",
+      "glyphLayers": 77
+    },
+    {
+      "id": "pack-apple-style-pack-slide",
+      "text": "Yaguano",
+      "glyphLayers": 7
+    },
+    {
+      "id": "pack-apple-style-pack-scale-slam",
+      "text": "Yaguano",
+      "glyphLayers": 7
+    },
+    {
+      "id": "pack-apple-style-pack-color-scale",
+      "text": "Yaguano",
+      "glyphLayers": 7
+    },
+    {
+      "id": "pack-apple-style-pack-slide-delay",
+      "text": "Yaguano",
+      "glyphLayers": 7
+    },
+    {
+      "id": "pack-apple-style-pack-bounce-drop",
+      "text": "Yaguano",
+      "glyphLayers": 7
+    },
+    {
+      "id": "pack-apple-style-pack-blur-rise",
+      "text": "Yaguano",
+      "glyphLayers": 7
+    },
+    {
+      "id": "pack-apple-style-pack-scale-words",
+      "text": "Yaguano",
+      "glyphLayers": 7
+    },
+    {
+      "id": "pack-apple-style-pack-slide-rotation",
+      "text": "Yaguano",
+      "glyphLayers": 7
+    },
+    {
+      "id": "pack-apple-style-pack-scale-tracking",
+      "text": "Yaguano",
+      "glyphLayers": 7
+    },
+    {
+      "id": "pack-demo-reel-pack-red-echo-bounce-in",
+      "text": "Yaguano",
+      "glyphLayers": 63
+    },
+    {
+      "id": "pack-demo-reel-pack-red-echo-bounce-out",
+      "text": "Yaguano",
+      "glyphLayers": 63
+    },
+    {
+      "id": "pack-demo-reel-pack-cyan-glide-in",
+      "text": "Yaguano",
+      "glyphLayers": 126
+    },
+    {
+      "id": "pack-demo-reel-pack-cyan-glide-out",
+      "text": "Yaguano",
+      "glyphLayers": 112
+    },
+    {
+      "id": "pack-demo-reel-pack-magenta-snap-in",
+      "text": "Yaguano",
+      "glyphLayers": 98
+    },
+    {
+      "id": "pack-demo-reel-pack-magenta-snap-out",
+      "text": "Yaguano",
+      "glyphLayers": 84
+    },
+    {
+      "id": "pack-demo-reel-pack-neon-spin-in",
+      "text": "Yaguano",
+      "glyphLayers": 91
+    },
+    {
+      "id": "pack-demo-reel-pack-neon-spin-out",
+      "text": "Yaguano",
+      "glyphLayers": 91
+    },
+    {
+      "id": "pack-demo-reel-pack-pink-pop-in",
+      "text": "Yaguano",
+      "glyphLayers": 70
+    },
+    {
+      "id": "pack-ghost-pack-rotation-reveal",
+      "text": "Yaguano",
+      "glyphLayers": 21
+    },
+    {
+      "id": "pack-ghost-pack-skew-reveal",
+      "text": "Yaguano",
+      "glyphLayers": 35
+    },
+    {
+      "id": "pack-ghost-pack-bounce-reveal",
+      "text": "Yaguano",
+      "glyphLayers": 21
+    },
+    {
+      "id": "pack-ghost-pack-bounce-rotation-reveal",
+      "text": "Yaguano",
+      "glyphLayers": 35
+    }
+  ]
+}

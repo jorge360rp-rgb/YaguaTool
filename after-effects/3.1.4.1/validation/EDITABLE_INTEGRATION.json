@@ -1,0 +1,15 @@
+{
+  "environment": "Chromium + simulated AE/CEP API; no actual AE render",
+  "host_version": "3.1.4.1",
+  "checks": [
+    "idle open panel sends no host calls",
+    "creation from current text and controls",
+    "text and preset re-bake via explicit sync button",
+    "stable editable wrapper ID",
+    "stale update rejected",
+    "insertion with external controller",
+    "external duration and text updates via explicit sync button",
+    "social compositions and native Bounce regression"
+  ],
+  "errors": []
+}

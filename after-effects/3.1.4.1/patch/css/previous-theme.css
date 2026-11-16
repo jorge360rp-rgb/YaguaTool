@@ -1,0 +1,88 @@
+/* Previous product anatomy with the current proposal's tokens. */
+.legacy-section{--bg:var(--base);--panel:var(--s2);--panel2:var(--s1);--control:var(--s1);--line-soft:var(--line);--txt:var(--text);--mut:var(--secondary);--acc:var(--ac);--acc-soft:var(--selected);--acc-ink:#0d0e11;--acc-text:var(--text);--ok:var(--text);--err:#cd5564;display:grid;gap:16px;min-width:0;width:100%;font:inherit}
+.legacy-section h3{margin:8px 0 0;font-size:15px;color:var(--text)}
+.legacy-section .card{padding:14px;gap:12px;border-radius:10px;background:var(--s2);border:1px solid var(--line)}
+.legacy-section button{min-height:38px;border-radius:10px;background:var(--s2);color:var(--text);border:1px solid var(--line);white-space:normal;overflow-wrap:anywhere;transition:background var(--dur-fast) var(--ease-std),border-color var(--dur-base) var(--ease-std),transform var(--dur-release) var(--ease-out)}
+.legacy-section button:hover{background:var(--interactive)}
+.legacy-section button.pri,.legacy-section button.on,.legacy-section button.active{background:var(--selected);color:var(--text);border-color:var(--selected-border)}
+.legacy-section button.is-down{transform:scale(.97);transition-duration:var(--dur-press)}
+.legacy-section input,.legacy-section textarea,.legacy-section select{font:inherit;color:var(--text);background:var(--s1);border:1px solid var(--line);border-radius:10px;max-width:100%;min-width:0;min-height:32px}
+.legacy-section input[type=range]{background:transparent;border:0}
+.legacy-section .ctl{padding:8px 0}.legacy-section .ctl label{color:var(--secondary)}
+.legacy-section .row,.legacy-section .btns{display:flex;gap:8px;flex-wrap:wrap;min-width:0}
+.legacy-section .desc{font-size:12px;color:var(--secondary);line-height:1.5}
+.legacy-section .lib-pack-bar{display:flex;gap:8px;flex-wrap:wrap}
+.legacy-section .lib-list{display:grid;gap:8px;max-height:420px;overflow-y:auto;min-width:0}
+.legacy-section .lib-group{color:var(--secondary);font-size:12px;padding-top:10px}
+.legacy-section .lib-preset{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 12px;text-align:left}
+.legacy-section .lib-preset-name{overflow-wrap:anywhere;white-space:normal}
+.legacy-section .tools-pro-tabs{display:flex;gap:2px;padding:2px;background:var(--s1);border-radius:10px;flex-wrap:wrap}
+.legacy-section .tools-pro-tabs button{flex:1 1 130px}
+.legacy-section .tools-pro-panel{display:grid;gap:16px}
+.legacy-section .tools-pro-panel[hidden]{display:none!important}
+.legacy-section .curve,.legacy-section .tools-curve-svg{display:block;max-width:100%;width:100%;height:auto;background:var(--s1);border-radius:10px;touch-action:none}
+.legacy-section .tools-curve-svg{max-height:280px}
+.legacy-section .bg-preview{min-width:0;max-width:100%;width:100%;min-height:0;aspect-ratio:16/9;overflow:hidden;border-radius:10px}
+.legacy-section .animix-preview{max-width:100%;min-width:0;overflow:hidden;border-radius:10px}
+.legacy-section .animix-preview-stage{min-width:0;max-width:100%}
+.legacy-section .grid2,.legacy-section .tools{grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr))}
+.legacy-section .tools-command-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr));gap:8px}
+.legacy-section .tools-curve-presets{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,100px),1fr));gap:8px}
+.legacy-section .tools-curve-presets svg{width:64px;max-width:100%;height:40px}
+.legacy-section .tools-command-grid svg{max-width:24px}
+.legacy-section .curve-number-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.legacy-section .curve-number-grid label{display:grid;gap:5px}
+.legacy-section .bg-style-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr));gap:8px}
+@media(max-width:480px){.legacy-section .card{padding:10px}.legacy-section .row{flex-direction:column;align-items:stretch}.legacy-section .row>input,.legacy-section .row>select,.legacy-section .row>.btn{width:100%}.legacy-section .curve-number-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.legacy-section .ctl{flex-wrap:wrap}.legacy-section .ctl>*{max-width:100%}}
+@media(prefers-reduced-motion:reduce){.legacy-section *,.legacy-section *::before,.legacy-section *::after{animation:none!important;transition:none!important}.legacy-section button.is-down{transform:none}}
+.legacy-section button.btn,.legacy-section button.halo{font-family:inherit;font-size:12px;min-height:38px;border-radius:10px}
+.legacy-section button.btn.pri,.legacy-section button.btn.on,.legacy-section button.btn.active{background:var(--selected);border-color:var(--selected-border);color:var(--text);box-shadow:none}
+.legacy-section .tools-pro-tabs button.btn.pri,.legacy-section .lib-pack-bar button.btn.pri,.legacy-section .seg button.on{background:var(--s2);color:var(--text);box-shadow:inset 0 0 0 1px var(--line);border-color:transparent}
+.legacy-section .lib-pack-bar{padding:2px;gap:2px;border-radius:10px;background:var(--s1)}
+.legacy-section .card .row>label,.legacy-section .ctl label{font-size:12px}
+:root{--acc:var(--ac);--mut:var(--secondary)}
+.legacy-section .lib-preset-arrow{flex-shrink:0;min-width:1em;text-align:center}
+@media(max-width:480px){
+ .legacy-section .row{flex-wrap:nowrap!important;height:auto}
+ .legacy-section .row>label,.legacy-section .row>.ctl{flex:0 1 auto!important;width:100%;max-width:100%}
+ .legacy-section .row>.ctl{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px}
+ .legacy-section .row .ctl input[type=range]{grid-column:1/-1;width:100%;min-width:0}
+ .legacy-section .row .ctl input[type=number]{width:100%;min-width:0}
+}
+.legacy-section{--line:inherit;--shadow:inherit;--acc2:var(--ac);--acc-ring:rgba(102,194,255,.2);color-scheme:inherit;color:var(--text)}
+.legacy-section .animix-preview-stage{background:#101216;color:#f1f4f8;--bg:#101216;--panel:#1c1f26;--txt:#f1f4f8;--mut:#b0b8c5}
+.legacy-section button.tog.halo{width:38px;min-width:38px;height:38px;min-height:38px;padding:8px 0;border:0;background:transparent!important;border-radius:12px}
+.legacy-section button.tog.halo::before{inset:7px -1px}
+.legacy-section .legacy-switch-track{display:block;width:38px;height:22px;border-radius:12px;background:rgba(255,255,255,.14);pointer-events:none;transition:background var(--dur-base) var(--ease-std)}
+.legacy-section button.tog.on .legacy-switch-track{background:var(--ac)}
+.legacy-section button.tog::after{z-index:1;width:18px;height:18px;left:2px;top:10px;background:#fff;transition:transform var(--dur-base) var(--ease-out);box-shadow:none}
+.legacy-section button.tog.on::after{transform:translateX(16px)}
+html[data-theme=light] .legacy-section .legacy-switch-track{background:rgba(20,35,55,.24)}
+html[data-theme=light] .legacy-section button.tog.on .legacy-switch-track{background:var(--ac)}
+.legacy-section button.halo{transition:transform var(--dur-release) var(--ease-out),background var(--dur-fast) var(--ease-std),border-color var(--dur-base) var(--ease-std)}
+.legacy-section button.halo.is-down{transition-duration:var(--dur-press)}
+
+.legacy-section .anchor{display:grid!important;grid-template-columns:repeat(3,38px)!important;grid-template-rows:repeat(3,38px)!important;gap:8px!important;width:max-content;max-width:100%;padding:8px}
+.legacy-section .anchor button{width:38px!important;height:38px!important;min-width:38px;min-height:38px;padding:0!important}
+.legacy-section .dg-wrap{min-width:0;width:100%}
+.legacy-section .dg-layout{grid-template-columns:minmax(0,1fr)}
+.legacy-section .dg-tabs{flex-wrap:wrap}
+.legacy-section .dg-tabs button{flex:1 1 80px}
+.legacy-section .dg-grid{min-width:0}
+.legacy-section .dg-viewport{max-width:100%}
+.legacy-section .anchor{padding:0}
+.legacy-section .dg-colors{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,110px),1fr))}
+.legacy-section .dg-tabbar{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:360px){.legacy-section .dg-tabbar{grid-template-columns:repeat(2,minmax(0,1fr))}.legacy-section .anchor{grid-template-columns:repeat(3,32px)!important;grid-template-rows:repeat(3,32px)!important}.legacy-section .anchor button{width:32px!important;height:32px!important;min-width:32px;min-height:32px}}
+
+.legacy-section .dg-color span{min-width:0;white-space:normal;overflow-wrap:anywhere}
+.legacy-section .dg-switch input{width:38px;height:22px;min-height:22px;flex-shrink:0;border-radius:12px;background:rgba(255,255,255,.14);border:0;transition:background var(--dur-base) var(--ease-std)}
+.legacy-section .dg-switch input:after{width:18px;height:18px;left:2px;top:2px;background:#fff;transition:transform var(--dur-base) var(--ease-out)}
+.legacy-section .dg-switch input:checked{background:var(--ac)}
+.legacy-section .dg-switch input:checked:after{transform:translateX(16px)}
+/* Keep the switch track at 38×22 inside a 38 px hit target. */
+.legacy-section .dg-switch input{height:38px;min-height:38px;background:transparent}
+.legacy-section .dg-switch input:before{content:"";position:absolute;left:0;top:8px;width:38px;height:22px;border-radius:12px;background:rgba(255,255,255,.14);transition:background var(--dur-base) var(--ease-std)}
+.legacy-section .dg-switch input:after{top:10px}
+.legacy-section .dg-switch input:checked{background:transparent}
+.legacy-section .dg-switch input:checked:before{background:var(--ac)}

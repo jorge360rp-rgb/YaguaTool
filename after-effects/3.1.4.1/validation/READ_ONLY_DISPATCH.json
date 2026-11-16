@@ -1,0 +1,11 @@
+{
+  "scope": "Packaged ExtendScript host executed in a simulated AE API; no native text-editor focus verification",
+  "checks": [
+    "rig-state read creates no undo group",
+    "repeated state reads create no undo group",
+    "read failure creates no undo group",
+    "project mutation keeps one undo group",
+    "dispatch failure closes mutation undo group"
+  ],
+  "status": "passed"
+}

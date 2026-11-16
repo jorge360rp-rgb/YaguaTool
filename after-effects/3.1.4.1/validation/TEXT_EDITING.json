@@ -1,0 +1,17 @@
+{
+  "scope": "Virtual-clock JavaScript simulation; no native AE text focus verification",
+  "oldHostReadsIn10Seconds": 15,
+  "newIdleHostReadsIn10Seconds": 0,
+  "checks": [
+    "startup and restart schedule no host calls",
+    "one state read only on explicit action",
+    "one update per requested sync",
+    "successful sync stays idle",
+    "unchanged rig avoids baking",
+    "stale sample requires another explicit action",
+    "duplicate sync suppressed",
+    "cancel during bake prevents subsequent host calls",
+    "error does not retry in background",
+    "temporary sampling file removed"
+  ]
+}
