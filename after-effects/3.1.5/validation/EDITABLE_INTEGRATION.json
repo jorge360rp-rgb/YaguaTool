@@ -1,0 +1,14 @@
+{
+  "environment": "Chromium + simulated AE/CEP API; no actual AE render",
+  "host_version": "3.1.5",
+  "checks": [
+    "creation from current text and controls",
+    "text and preset re-bake",
+    "stable editable wrapper ID",
+    "stale update rejected",
+    "insertion with external controller",
+    "external duration and text updates",
+    "social compositions and native Bounce regression"
+  ],
+  "errors": []
+}

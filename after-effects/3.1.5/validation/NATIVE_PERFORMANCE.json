@@ -1,0 +1,1180 @@
+{
+  "scope": "Semantic AE API simulation; no AE pixel render or native timing measurement",
+  "presets": [
+    {
+      "preset": "pack-apple-style-pack-blur-rise",
+      "frames": 96,
+      "records": 2,
+      "before": {
+        "layers": 14,
+        "compositions": 3,
+        "keys": 2704,
+        "numericKeys": 2688
+      },
+      "after": {
+        "layers": 10,
+        "compositions": 3,
+        "keys": 475,
+        "numericKeys": 475
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 2,
+        "pieceCompositions": 2,
+        "reusedPieceCompositions": 0,
+        "glyphLayers": 8,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 2,
+        "blurEffects": 2,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 12,
+        "staticTextDocuments": 8,
+        "textDocumentKeys": 0,
+        "numericKeys": 475,
+        "denseNumericKeys": 2496
+      }
+    },
+    {
+      "preset": "pack-apple-style-pack-bounce-drop",
+      "frames": 218,
+      "records": 8,
+      "before": {
+        "layers": 32,
+        "compositions": 9,
+        "keys": 13968,
+        "numericKeys": 13952
+      },
+      "after": {
+        "layers": 16,
+        "compositions": 9,
+        "keys": 3015,
+        "numericKeys": 3015
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 8,
+        "pieceCompositions": 8,
+        "reusedPieceCompositions": 0,
+        "glyphLayers": 8,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 8,
+        "blurEffects": 8,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 24,
+        "staticTextDocuments": 8,
+        "textDocumentKeys": 0,
+        "numericKeys": 3015,
+        "denseNumericKeys": 12208
+      }
+    },
+    {
+      "preset": "pack-apple-style-pack-color-scale",
+      "frames": 79,
+      "records": 1,
+      "before": {
+        "layers": 11,
+        "compositions": 2,
+        "keys": 1874,
+        "numericKeys": 1738
+      },
+      "after": {
+        "layers": 9,
+        "compositions": 2,
+        "keys": 313,
+        "numericKeys": 177
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 1,
+        "pieceCompositions": 1,
+        "reusedPieceCompositions": 0,
+        "glyphLayers": 8,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 1,
+        "blurEffects": 1,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 10,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 136,
+        "numericKeys": 177,
+        "denseNumericKeys": 1659
+      }
+    },
+    {
+      "preset": "pack-apple-style-pack-scale-slam",
+      "frames": 103,
+      "records": 1,
+      "before": {
+        "layers": 11,
+        "compositions": 2,
+        "keys": 2282,
+        "numericKeys": 2266
+      },
+      "after": {
+        "layers": 9,
+        "compositions": 2,
+        "keys": 255,
+        "numericKeys": 255
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 1,
+        "pieceCompositions": 1,
+        "reusedPieceCompositions": 0,
+        "glyphLayers": 8,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 1,
+        "blurEffects": 1,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 10,
+        "staticTextDocuments": 8,
+        "textDocumentKeys": 0,
+        "numericKeys": 255,
+        "denseNumericKeys": 2163
+      }
+    },
+    {
+      "preset": "pack-apple-style-pack-scale-tracking",
+      "frames": 133,
+      "records": 1,
+      "before": {
+        "layers": 12,
+        "compositions": 2,
+        "keys": 3210,
+        "numericKeys": 3192
+      },
+      "after": {
+        "layers": 10,
+        "compositions": 2,
+        "keys": 1294,
+        "numericKeys": 1294
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 1,
+        "pieceCompositions": 1,
+        "reusedPieceCompositions": 0,
+        "glyphLayers": 9,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 1,
+        "blurEffects": 1,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 4,
+        "staticTextDocuments": 9,
+        "textDocumentKeys": 0,
+        "numericKeys": 1294,
+        "denseNumericKeys": 3059
+      }
+    },
+    {
+      "preset": "pack-apple-style-pack-scale-words",
+      "frames": 91,
+      "records": 2,
+      "before": {
+        "layers": 14,
+        "compositions": 3,
+        "keys": 2560,
+        "numericKeys": 2548
+      },
+      "after": {
+        "layers": 10,
+        "compositions": 3,
+        "keys": 256,
+        "numericKeys": 256
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 2,
+        "pieceCompositions": 2,
+        "reusedPieceCompositions": 0,
+        "glyphLayers": 8,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 2,
+        "blurEffects": 2,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 17,
+        "staticTextDocuments": 8,
+        "textDocumentKeys": 0,
+        "numericKeys": 256,
+        "denseNumericKeys": 2366
+      }
+    },
+    {
+      "preset": "pack-apple-style-pack-slide-delay",
+      "frames": 93,
+      "records": 8,
+      "before": {
+        "layers": 32,
+        "compositions": 9,
+        "keys": 5968,
+        "numericKeys": 5952
+      },
+      "after": {
+        "layers": 16,
+        "compositions": 9,
+        "keys": 1452,
+        "numericKeys": 1452
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 8,
+        "pieceCompositions": 8,
+        "reusedPieceCompositions": 0,
+        "glyphLayers": 8,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 8,
+        "blurEffects": 8,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 24,
+        "staticTextDocuments": 8,
+        "textDocumentKeys": 0,
+        "numericKeys": 1452,
+        "denseNumericKeys": 5208
+      }
+    },
+    {
+      "preset": "pack-apple-style-pack-slide-rotation",
+      "frames": 96,
+      "records": 8,
+      "before": {
+        "layers": 32,
+        "compositions": 9,
+        "keys": 6160,
+        "numericKeys": 6144
+      },
+      "after": {
+        "layers": 16,
+        "compositions": 9,
+        "keys": 1339,
+        "numericKeys": 1339
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 8,
+        "pieceCompositions": 8,
+        "reusedPieceCompositions": 0,
+        "glyphLayers": 8,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 8,
+        "blurEffects": 8,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 16,
+        "staticTextDocuments": 8,
+        "textDocumentKeys": 0,
+        "numericKeys": 1339,
+        "denseNumericKeys": 5376
+      }
+    },
+    {
+      "preset": "pack-apple-style-pack-slide",
+      "frames": 145,
+      "records": 8,
+      "before": {
+        "layers": 32,
+        "compositions": 9,
+        "keys": 9296,
+        "numericKeys": 9280
+      },
+      "after": {
+        "layers": 16,
+        "compositions": 9,
+        "keys": 2526,
+        "numericKeys": 2526
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 8,
+        "pieceCompositions": 8,
+        "reusedPieceCompositions": 0,
+        "glyphLayers": 8,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 8,
+        "blurEffects": 8,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 24,
+        "staticTextDocuments": 8,
+        "textDocumentKeys": 0,
+        "numericKeys": 2526,
+        "denseNumericKeys": 8120
+      }
+    },
+    {
+      "preset": "pack-demo-reel-pack-cyan-glide-in",
+      "frames": 117,
+      "records": 36,
+      "before": {
+        "layers": 342,
+        "compositions": 37,
+        "keys": 80842,
+        "numericKeys": 80028
+      },
+      "after": {
+        "layers": 329,
+        "compositions": 35,
+        "keys": 9234,
+        "numericKeys": 8472
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 36,
+        "pieceCompositions": 34,
+        "reusedPieceCompositions": 2,
+        "glyphLayers": 221,
+        "auxiliaryLayers": 72,
+        "flattenedTransforms": 0,
+        "blurEffects": 36,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 221,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 762,
+        "numericKeys": 8472,
+        "denseNumericKeys": 76986
+      }
+    },
+    {
+      "preset": "pack-demo-reel-pack-cyan-glide-out",
+      "frames": 105,
+      "records": 33,
+      "before": {
+        "layers": 316,
+        "compositions": 34,
+        "keys": 67184,
+        "numericKeys": 66360
+      },
+      "after": {
+        "layers": 250,
+        "compositions": 34,
+        "keys": 7770,
+        "numericKeys": 6972
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 33,
+        "pieceCompositions": 33,
+        "reusedPieceCompositions": 0,
+        "glyphLayers": 217,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 33,
+        "blurEffects": 33,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 258,
+        "staticTextDocuments": 13,
+        "textDocumentKeys": 798,
+        "numericKeys": 6972,
+        "denseNumericKeys": 62895
+      }
+    },
+    {
+      "preset": "pack-demo-reel-pack-magenta-snap-in",
+      "frames": 102,
+      "records": 41,
+      "before": {
+        "layers": 317,
+        "compositions": 42,
+        "keys": 65529,
+        "numericKeys": 64668
+      },
+      "after": {
+        "layers": 221,
+        "compositions": 39,
+        "keys": 8871,
+        "numericKeys": 8066
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 41,
+        "pieceCompositions": 38,
+        "reusedPieceCompositions": 3,
+        "glyphLayers": 180,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 41,
+        "blurEffects": 41,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 221,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 805,
+        "numericKeys": 8066,
+        "denseNumericKeys": 57630
+      }
+    },
+    {
+      "preset": "pack-demo-reel-pack-magenta-snap-out",
+      "frames": 80,
+      "records": 36,
+      "before": {
+        "layers": 276,
+        "compositions": 37,
+        "keys": 44706,
+        "numericKeys": 44160
+      },
+      "after": {
+        "layers": 204,
+        "compositions": 37,
+        "keys": 5696,
+        "numericKeys": 5150
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 36,
+        "pieceCompositions": 36,
+        "reusedPieceCompositions": 0,
+        "glyphLayers": 168,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 36,
+        "blurEffects": 36,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 240,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 546,
+        "numericKeys": 5150,
+        "denseNumericKeys": 41280
+      }
+    },
+    {
+      "preset": "pack-demo-reel-pack-neon-spin-in",
+      "frames": 105,
+      "records": 130,
+      "before": {
+        "layers": 520,
+        "compositions": 131,
+        "keys": 109666,
+        "numericKeys": 109200
+      },
+      "after": {
+        "layers": 250,
+        "compositions": 121,
+        "keys": 26633,
+        "numericKeys": 26207
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 130,
+        "pieceCompositions": 120,
+        "reusedPieceCompositions": 10,
+        "glyphLayers": 120,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 130,
+        "blurEffects": 130,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 120,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 426,
+        "numericKeys": 26207,
+        "denseNumericKeys": 93450
+      }
+    },
+    {
+      "preset": "pack-demo-reel-pack-neon-spin-out",
+      "frames": 84,
+      "records": 130,
+      "before": {
+        "layers": 520,
+        "compositions": 131,
+        "keys": 87798,
+        "numericKeys": 87360
+      },
+      "after": {
+        "layers": 250,
+        "compositions": 121,
+        "keys": 19204,
+        "numericKeys": 18796
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 130,
+        "pieceCompositions": 120,
+        "reusedPieceCompositions": 10,
+        "glyphLayers": 120,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 130,
+        "blurEffects": 130,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 120,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 408,
+        "numericKeys": 18796,
+        "denseNumericKeys": 74760
+      }
+    },
+    {
+      "preset": "pack-demo-reel-pack-pink-pop-in",
+      "frames": 80,
+      "records": 60,
+      "before": {
+        "layers": 240,
+        "compositions": 61,
+        "keys": 38608,
+        "numericKeys": 38400
+      },
+      "after": {
+        "layers": 114,
+        "compositions": 55,
+        "keys": 5136,
+        "numericKeys": 4952
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 60,
+        "pieceCompositions": 54,
+        "reusedPieceCompositions": 6,
+        "glyphLayers": 54,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 60,
+        "blurEffects": 60,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 114,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 184,
+        "numericKeys": 4952,
+        "denseNumericKeys": 32640
+      }
+    },
+    {
+      "preset": "pack-demo-reel-pack-red-echo-bounce-in",
+      "frames": 90,
+      "records": 27,
+      "before": {
+        "layers": 180,
+        "compositions": 28,
+        "keys": 32902,
+        "numericKeys": 32400
+      },
+      "after": {
+        "layers": 115,
+        "compositions": 25,
+        "keys": 6053,
+        "numericKeys": 5595
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 27,
+        "pieceCompositions": 24,
+        "reusedPieceCompositions": 3,
+        "glyphLayers": 88,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 27,
+        "blurEffects": 27,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 115,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 458,
+        "numericKeys": 5595,
+        "denseNumericKeys": 27990
+      }
+    },
+    {
+      "preset": "pack-demo-reel-pack-red-echo-bounce-out",
+      "frames": 93,
+      "records": 27,
+      "before": {
+        "layers": 180,
+        "compositions": 28,
+        "keys": 33827,
+        "numericKeys": 33480
+      },
+      "after": {
+        "layers": 169,
+        "compositions": 25,
+        "keys": 5455,
+        "numericKeys": 5141
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 27,
+        "pieceCompositions": 24,
+        "reusedPieceCompositions": 3,
+        "glyphLayers": 88,
+        "auxiliaryLayers": 54,
+        "flattenedTransforms": 0,
+        "blurEffects": 27,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 88,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 314,
+        "numericKeys": 5141,
+        "denseNumericKeys": 31434
+      }
+    },
+    {
+      "preset": "pack-echo-pack-afterimage",
+      "frames": 103,
+      "records": 16,
+      "before": {
+        "layers": 176,
+        "compositions": 17,
+        "keys": 36734,
+        "numericKeys": 36256
+      },
+      "after": {
+        "layers": 136,
+        "compositions": 16,
+        "keys": 2355,
+        "numericKeys": 1925
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 16,
+        "pieceCompositions": 15,
+        "reusedPieceCompositions": 1,
+        "glyphLayers": 120,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 16,
+        "blurEffects": 16,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 152,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 430,
+        "numericKeys": 1925,
+        "denseNumericKeys": 32960
+      }
+    },
+    {
+      "preset": "pack-echo-pack-comet",
+      "frames": 110,
+      "records": 34,
+      "before": {
+        "layers": 238,
+        "compositions": 35,
+        "keys": 52824,
+        "numericKeys": 52360
+      },
+      "after": {
+        "layers": 162,
+        "compositions": 33,
+        "keys": 6888,
+        "numericKeys": 6456
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 34,
+        "pieceCompositions": 32,
+        "reusedPieceCompositions": 2,
+        "glyphLayers": 128,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 34,
+        "blurEffects": 34,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 196,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 432,
+        "numericKeys": 6456,
+        "denseNumericKeys": 46860
+      }
+    },
+    {
+      "preset": "pack-echo-pack-echo-stack",
+      "frames": 143,
+      "records": 18,
+      "before": {
+        "layers": 126,
+        "compositions": 19,
+        "keys": 36244,
+        "numericKeys": 36036
+      },
+      "after": {
+        "layers": 90,
+        "compositions": 19,
+        "keys": 4910,
+        "numericKeys": 4718
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 18,
+        "pieceCompositions": 18,
+        "reusedPieceCompositions": 0,
+        "glyphLayers": 72,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 18,
+        "blurEffects": 18,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 108,
+        "staticTextDocuments": 8,
+        "textDocumentKeys": 192,
+        "numericKeys": 4718,
+        "denseNumericKeys": 33462
+      }
+    },
+    {
+      "preset": "pack-echo-pack-halo",
+      "frames": 104,
+      "records": 88,
+      "before": {
+        "layers": 352,
+        "compositions": 89,
+        "keys": 73578,
+        "numericKeys": 73216
+      },
+      "after": {
+        "layers": 168,
+        "compositions": 81,
+        "keys": 19742,
+        "numericKeys": 19412
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 88,
+        "pieceCompositions": 80,
+        "reusedPieceCompositions": 8,
+        "glyphLayers": 80,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 88,
+        "blurEffects": 88,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 80,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 330,
+        "numericKeys": 19412,
+        "denseNumericKeys": 62400
+      }
+    },
+    {
+      "preset": "pack-echo-pack-letter-rain",
+      "frames": 145,
+      "records": 64,
+      "before": {
+        "layers": 256,
+        "compositions": 65,
+        "keys": 74649,
+        "numericKeys": 74240
+      },
+      "after": {
+        "layers": 248,
+        "compositions": 57,
+        "keys": 22087,
+        "numericKeys": 21710
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 64,
+        "pieceCompositions": 56,
+        "reusedPieceCompositions": 8,
+        "glyphLayers": 56,
+        "auxiliaryLayers": 128,
+        "flattenedTransforms": 0,
+        "blurEffects": 64,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 56,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 377,
+        "numericKeys": 21710,
+        "denseNumericKeys": 71920
+      }
+    },
+    {
+      "preset": "pack-echo-pack-scale-pop",
+      "frames": 108,
+      "records": 104,
+      "before": {
+        "layers": 416,
+        "compositions": 105,
+        "keys": 90224,
+        "numericKeys": 89856
+      },
+      "after": {
+        "layers": 200,
+        "compositions": 97,
+        "keys": 19987,
+        "numericKeys": 19651
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 104,
+        "pieceCompositions": 96,
+        "reusedPieceCompositions": 8,
+        "glyphLayers": 96,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 104,
+        "blurEffects": 104,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 200,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 336,
+        "numericKeys": 19651,
+        "denseNumericKeys": 76896
+      }
+    },
+    {
+      "preset": "pack-echo-pack-squeeze-arc",
+      "frames": 136,
+      "records": 104,
+      "before": {
+        "layers": 416,
+        "compositions": 105,
+        "keys": 114035,
+        "numericKeys": 113152
+      },
+      "after": {
+        "layers": 200,
+        "compositions": 97,
+        "keys": 45295,
+        "numericKeys": 44579
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 104,
+        "pieceCompositions": 96,
+        "reusedPieceCompositions": 8,
+        "glyphLayers": 96,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 104,
+        "blurEffects": 104,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 0,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 716,
+        "numericKeys": 44579,
+        "denseNumericKeys": 96832
+      }
+    },
+    {
+      "preset": "pack-echo-pack-swing-trail",
+      "frames": 88,
+      "records": 88,
+      "before": {
+        "layers": 352,
+        "compositions": 89,
+        "keys": 62243,
+        "numericKeys": 61952
+      },
+      "after": {
+        "layers": 168,
+        "compositions": 81,
+        "keys": 14153,
+        "numericKeys": 13894
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 88,
+        "pieceCompositions": 80,
+        "reusedPieceCompositions": 8,
+        "glyphLayers": 80,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 88,
+        "blurEffects": 88,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 80,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 259,
+        "numericKeys": 13894,
+        "denseNumericKeys": 52800
+      }
+    },
+    {
+      "preset": "pack-echo-pack-tidal-bounce",
+      "frames": 151,
+      "records": 112,
+      "before": {
+        "layers": 448,
+        "compositions": 113,
+        "keys": 135921,
+        "numericKeys": 135296
+      },
+      "after": {
+        "layers": 216,
+        "compositions": 105,
+        "keys": 54701,
+        "numericKeys": 54108
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 112,
+        "pieceCompositions": 104,
+        "reusedPieceCompositions": 8,
+        "glyphLayers": 104,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 112,
+        "blurEffects": 112,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 0,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 593,
+        "numericKeys": 54108,
+        "denseNumericKeys": 115968
+      }
+    },
+    {
+      "preset": "pack-echo-pack-tilt-drift",
+      "frames": 124,
+      "records": 152,
+      "before": {
+        "layers": 608,
+        "compositions": 153,
+        "keys": 151280,
+        "numericKeys": 150784
+      },
+      "after": {
+        "layers": 296,
+        "compositions": 145,
+        "keys": 33206,
+        "numericKeys": 32742
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 152,
+        "pieceCompositions": 144,
+        "reusedPieceCompositions": 8,
+        "glyphLayers": 144,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 152,
+        "blurEffects": 152,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 144,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 464,
+        "numericKeys": 32742,
+        "denseNumericKeys": 129952
+      }
+    },
+    {
+      "preset": "pack-echo-pack-word-slam",
+      "frames": 94,
+      "records": 18,
+      "before": {
+        "layers": 126,
+        "compositions": 19,
+        "keys": 24116,
+        "numericKeys": 23688
+      },
+      "after": {
+        "layers": 82,
+        "compositions": 17,
+        "keys": 4707,
+        "numericKeys": 4311
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 18,
+        "pieceCompositions": 16,
+        "reusedPieceCompositions": 2,
+        "glyphLayers": 64,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 18,
+        "blurEffects": 18,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 82,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 396,
+        "numericKeys": 4311,
+        "denseNumericKeys": 20492
+      }
+    },
+    {
+      "preset": "pack-ghost-pack-bounce-reveal",
+      "frames": 120,
+      "records": 16,
+      "before": {
+        "layers": 64,
+        "compositions": 17,
+        "keys": 15400,
+        "numericKeys": 15360
+      },
+      "after": {
+        "layers": 64,
+        "compositions": 17,
+        "keys": 4639,
+        "numericKeys": 4615
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 16,
+        "pieceCompositions": 16,
+        "reusedPieceCompositions": 0,
+        "glyphLayers": 16,
+        "auxiliaryLayers": 32,
+        "flattenedTransforms": 0,
+        "blurEffects": 16,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 16,
+        "staticTextDocuments": 8,
+        "textDocumentKeys": 24,
+        "numericKeys": 4615,
+        "denseNumericKeys": 15360
+      }
+    },
+    {
+      "preset": "pack-ghost-pack-bounce-rotation-reveal",
+      "frames": 119,
+      "records": 32,
+      "before": {
+        "layers": 128,
+        "compositions": 33,
+        "keys": 30611,
+        "numericKeys": 30464
+      },
+      "after": {
+        "layers": 120,
+        "compositions": 25,
+        "keys": 8376,
+        "numericKeys": 8261
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 32,
+        "pieceCompositions": 24,
+        "reusedPieceCompositions": 8,
+        "glyphLayers": 24,
+        "auxiliaryLayers": 64,
+        "flattenedTransforms": 0,
+        "blurEffects": 32,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 56,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 115,
+        "numericKeys": 8261,
+        "denseNumericKeys": 28560
+      }
+    },
+    {
+      "preset": "pack-ghost-pack-rotation-reveal",
+      "frames": 130,
+      "records": 16,
+      "before": {
+        "layers": 64,
+        "compositions": 17,
+        "keys": 16680,
+        "numericKeys": 16640
+      },
+      "after": {
+        "layers": 32,
+        "compositions": 17,
+        "keys": 6802,
+        "numericKeys": 6778
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 16,
+        "pieceCompositions": 16,
+        "reusedPieceCompositions": 0,
+        "glyphLayers": 16,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 16,
+        "blurEffects": 16,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 16,
+        "staticTextDocuments": 8,
+        "textDocumentKeys": 24,
+        "numericKeys": 6778,
+        "denseNumericKeys": 14560
+      }
+    },
+    {
+      "preset": "pack-ghost-pack-skew-reveal",
+      "frames": 88,
+      "records": 8,
+      "before": {
+        "layers": 56,
+        "compositions": 9,
+        "keys": 10008,
+        "numericKeys": 9856
+      },
+      "after": {
+        "layers": 48,
+        "compositions": 7,
+        "keys": 3154,
+        "numericKeys": 3034
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 8,
+        "pieceCompositions": 6,
+        "reusedPieceCompositions": 2,
+        "glyphLayers": 24,
+        "auxiliaryLayers": 16,
+        "flattenedTransforms": 0,
+        "blurEffects": 8,
+        "omittedZeroBlurs": 0,
+        "staticProperties": 24,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 120,
+        "numericKeys": 3034,
+        "denseNumericKeys": 8448
+      }
+    }
+  ],
+  "synthetic": [
+    {
+      "preset": "shear and visibility boundaries",
+      "frames": 9,
+      "records": 3,
+      "before": {
+        "layers": 15,
+        "compositions": 4,
+        "keys": 290,
+        "numericKeys": 270
+      },
+      "after": {
+        "layers": 15,
+        "compositions": 4,
+        "keys": 220,
+        "numericKeys": 200
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 3,
+        "pieceCompositions": 3,
+        "reusedPieceCompositions": 0,
+        "glyphLayers": 6,
+        "auxiliaryLayers": 6,
+        "flattenedTransforms": 0,
+        "blurEffects": 1,
+        "omittedZeroBlurs": 2,
+        "staticProperties": 0,
+        "staticTextDocuments": 0,
+        "textDocumentKeys": 20,
+        "numericKeys": 200,
+        "denseNumericKeys": 252
+      }
+    },
+    {
+      "preset": "static color, zero blur and cache reuse",
+      "frames": 9,
+      "records": 3,
+      "before": {
+        "layers": 15,
+        "compositions": 4,
+        "keys": 276,
+        "numericKeys": 270
+      },
+      "after": {
+        "layers": 5,
+        "compositions": 2,
+        "keys": 0,
+        "numericKeys": 0
+      },
+      "stats": {
+        "encoding": "sparse-native-v1",
+        "records": 3,
+        "pieceCompositions": 1,
+        "reusedPieceCompositions": 2,
+        "glyphLayers": 2,
+        "auxiliaryLayers": 0,
+        "flattenedTransforms": 3,
+        "blurEffects": 0,
+        "omittedZeroBlurs": 3,
+        "staticProperties": 16,
+        "staticTextDocuments": 2,
+        "textDocumentKeys": 0,
+        "numericKeys": 0,
+        "denseNumericKeys": 144
+      }
+    }
+  ],
+  "fontFailureCleanup": true,
+  "renderingStateRestored": true,
+  "samples": 633008,
+  "maxAbsoluteError": 1.1086740414611995e-8,
+  "totals": {
+    "before": {
+      "layers": 6907,
+      "compositions": 1462,
+      "keys": 1533631,
+      "numericKeys": 1522972
+    },
+    "after": {
+      "layers": 4244,
+      "compositions": 1354,
+      "keys": 355979,
+      "numericKeys": 346334
+    }
+  }
+}

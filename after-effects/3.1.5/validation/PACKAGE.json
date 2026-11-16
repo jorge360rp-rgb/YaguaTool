@@ -1,0 +1,14 @@
+{
+  "runtime_files": 89,
+  "integrity_files": 89,
+  "original_unmodified_files": 75,
+  "guides_in_both": [
+    "README_FUNCIONES.md",
+    "README_INSTALACION.md"
+  ],
+  "same_runtime_installers_and_guides": true,
+  "clean_has_no_history_or_validation": true,
+  "full_contains_history_validation_and_screenshots": true,
+  "all_references_exist": true,
+  "mac_executable": true
+}
