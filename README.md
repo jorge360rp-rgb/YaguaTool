@@ -1,6 +1,6 @@
 # YaguaTool 3.1.5 · Motion Lab para After Effects
 
-**[Presentación de la interfaz 3.1.4 en GitHub](https://github.com/jorge360rp-rgb/yaguami/issues/7)**
+**[Presentación de la interfaz 3.1.4 en GitHub](https://github.com/jorge360rp-rgb/YaguaTool/issues/7)**
 
 **Texto animado, layouts, curvas y utilidades de edición en un único panel para After Effects.** YaguaTool combina una interfaz Glass con herramientas de creación y ajustes editables, desde una animación de texto hasta una cuadrícula con capas vinculadas.
 
@@ -18,8 +18,8 @@ Las capturas siguientes corresponden a la interfaz 3.1.4, que se mantiene en est
 
 | Descarga | Contenido | Para quién |
 | --- | --- | --- |
-| **[Paquete limpio con instaladores](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.5/YaguaTool_3.1.5_AfterEffects.zip)** | Extensión, instaladores Windows/macOS, guía breve de instalación y guía de funciones. | Uso habitual e instalación. |
-| **[Paquete completo con historial y validación](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.5/YaguaTool_3.1.5_Completo.zip)** | Todo lo anterior, más historial, notas técnicas, pruebas y capturas en `Documentacion`. | Revisión, desarrollo y consulta del proceso. |
+| **[Paquete limpio con instaladores](https://raw.githubusercontent.com/jorge360rp-rgb/YaguaTool/codex/yaguano-ui-reference-responsive/after-effects/3.1.5/YaguaTool_3.1.5_AfterEffects.zip)** | Extensión, instaladores Windows/macOS, guía breve de instalación y guía de funciones. | Uso habitual e instalación. |
+| **[Paquete completo con historial y validación](https://raw.githubusercontent.com/jorge360rp-rgb/YaguaTool/codex/yaguano-ui-reference-responsive/after-effects/3.1.5/YaguaTool_3.1.5_Completo.zip)** | Todo lo anterior, más historial, notas técnicas, pruebas y capturas en `Documentacion`. | Revisión, desarrollo y consulta del proceso. |
 
 Ambos contienen los mismos archivos del panel y los mismos instaladores. La documentación adicional queda fuera de `Extension/YaguaTool`, para mantener limpia la carpeta instalada en CEP.
 
@@ -29,7 +29,7 @@ Ambos contienen los mismos archivos del panel y los mismos instaladores. La docu
 
 **Motion Lab reúne 33 presets** en Echo Pack, Apple Style Pack, Demo Reel Pack y Ghost Pack. Permite editar el texto, ajustar curvas Bézier y Anchor Point, personalizar Fill/Echo/Ghost según el preset y crear la animación nativa a 60 fps en una composición nueva o insertarla en la composición activa. El panel incluye transporte, galería de previews, exportación y controles editables en AE.
 
-![Motion Lab: preview, curva de movimiento y controles de creación](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.4/presentacion/01-Motion-Lab.png)
+![Motion Lab: preview, curva de movimiento y controles de creación](https://raw.githubusercontent.com/jorge360rp-rgb/YaguaTool/codex/yaguano-ui-reference-responsive/after-effects/3.1.4/presentacion/01-Motion-Lab.png)
 
 ## Construir composiciones y layouts
 
@@ -39,13 +39,13 @@ Ambos contienen los mismos archivos del panel y los mismos instaladores. La docu
 
 **Complex Text** conserva la imagen de referencia del efecto fluido y las opciones de abrir el original, crear una copia editable o insertarla, con personalización opcional de sus dos textos.
 
-![Grid Pro: cuadrícula personalizable, navegación y pestañas Grid, Animate, Backdrop y Attach](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.4/presentacion/02-Grid-Pro.png)
+![Grid Pro: cuadrícula personalizable, navegación y pestañas Grid, Animate, Backdrop y Attach](https://raw.githubusercontent.com/jorge360rp-rgb/YaguaTool/codex/yaguano-ui-reference-responsive/after-effects/3.1.4/presentacion/02-Grid-Pro.png)
 
 ## Biblioteca y herramientas para el día a día
 
 La **Biblioteca contiene 51 composiciones originales** agrupadas en Text Animation Pack 1, Text Animation Pack 2 y Dynamic Text Animation. Incluye organización por familias, búsqueda y acceso a los originales y sus copias desde AE.
 
-![Biblioteca: packs y catálogo de composiciones originales](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.4/presentacion/03-Biblioteca.png)
+![Biblioteca: packs y catálogo de composiciones originales](https://raw.githubusercontent.com/jorge360rp-rgb/YaguaTool/codex/yaguano-ui-reference-responsive/after-effects/3.1.4/presentacion/03-Biblioteca.png)
 
 | Sección | Qué aporta |
 | --- | --- |
@@ -57,7 +57,7 @@ La **Biblioteca contiene 51 composiciones originales** agrupadas en Text Animati
 | **Retícula** | Diez formatos de composición y overlays guía para TikTok, Reels y Shorts. |
 | **Ajustes** | Temas, acento, ayudas, movimiento reducido, preferencias de animación y copias de datos. |
 
-![Herramientas: editor de curvas y utilidades de keyframes](https://raw.githubusercontent.com/jorge360rp-rgb/yaguami/codex/yaguano-ui-reference-responsive/after-effects/3.1.4/presentacion/04-Herramientas.png)
+![Herramientas: editor de curvas y utilidades de keyframes](https://raw.githubusercontent.com/jorge360rp-rgb/YaguaTool/codex/yaguano-ui-reference-responsive/after-effects/3.1.4/presentacion/04-Herramientas.png)
 
 ## Una interfaz más cómoda
 
